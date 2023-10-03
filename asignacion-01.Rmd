@@ -87,12 +87,13 @@ Los pasos que necesitarás dar para completar tus colectas son los siguientes:
 ### Hexágonos asignados
 
 
-```{r, echo=F, include=F}
+```{r}
 estudiantes <- read.csv('../../courseid_2928_participants.csv')
 estudiantes$id_estudiante <- paste(estudiantes$Nombre, estudiantes$Apellido.s.)
 hexagonos <- st_read('data/h3-res-12-no-edificios-3-grupos.gpkg')
 
 # Muestreo estratificado
+set.seed(99)
 asignaciones <- hexagonos %>%
   group_by(grupo) %>%
   sample_n(size = 5 * nrow(estudiantes)) %>%

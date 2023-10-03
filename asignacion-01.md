@@ -57,16 +57,16 @@ redactes la primera de dichas subsecciones, “Diseño de muestreo y
 colecta de datos de campo”, y que colectes tus muestras**. Por lo tanto,
 serán dos los entregables:
 
-- Tus muestras de hormigas, colectadas y registradas en plataforma en
-  línea (ver detalles más abajo). Todavía **no** identificarás hormigas,
-  sólo las colectaras y registrarás.
+-   Tus muestras de hormigas, colectadas y registradas en plataforma en
+    línea (ver detalles más abajo). Todavía **no** identificarás
+    hormigas, sólo las colectaras y registrarás.
 
-- Documento conteniendo la subsección “Diseño de muestreo y colecta de
-  datos de campo”. Esta subsección la entregarás en esta asignación, y
-  la reservarás para incorporarla, más adelante, en la sección
-  “Metodología” de tu manuscrito. Podrás mejorarla en el proceso antes
-  de entregar el manuscrito, pero entregarás una primera versión para
-  valoración en esta asignación.
+-   Documento conteniendo la subsección “Diseño de muestreo y colecta de
+    datos de campo”. Esta subsección la entregarás en esta asignación, y
+    la reservarás para incorporarla, más adelante, en la sección
+    “Metodología” de tu manuscrito. Podrás mejorarla en el proceso antes
+    de entregar el manuscrito, pero entregarás una primera versión para
+    valoración en esta asignación.
 
 ## Colecta tus datos de campo
 
@@ -84,63 +84,142 @@ clasificación.
 Los pasos que necesitarás dar para completar tus colectas son los
 siguientes:
 
-- Carga el diseño de hexágonos H3 en tu celular usando [este vínculo de
-  GoogleMaps](https://www.google.com/maps/d/u/0/edit?mid=1ZjT9ii7O8Rp4IXdXgQOIfU93z5QI_As&usp=sharing).
+-   Carga el diseño de hexágonos H3 en tu celular usando [este vínculo
+    de
+    GoogleMaps](https://www.google.com/maps/d/u/0/edit?mid=1ZjT9ii7O8Rp4IXdXgQOIfU93z5QI_As&usp=sharing).
 
-- Identifica tus hexágonos asignados (ver la sección siguiente).
-  Márcalos o memoriza su localización.
+-   Identifica tus hexágonos asignados (ver la sección siguiente).
+    Márcalos o memoriza su localización.
 
-- Elige un día para realizar las colectas (un día completo será
-  suficiente). Comienza lo más temprano que puedas.
+-   Elige un día para realizar las colectas (un día completo será
+    suficiente). Comienza lo más temprano que puedas.
 
-- El día elegido, realiza las colectas siguiendo estos pasos:
+-   El día elegido, realiza las colectas siguiendo estos pasos:
 
-  - Llega al primer hexágono aisgnado usando el [mapa
-    facilitado](https://www.google.com/maps/d/u/0/edit?mid=1ZjT9ii7O8Rp4IXdXgQOIfU93z5QI_As&usp=sharing).
+    -   Llega al primer hexágono aisgnado usando el [mapa
+        facilitado](https://www.google.com/maps/d/u/0/edit?mid=1ZjT9ii7O8Rp4IXdXgQOIfU93z5QI_As&usp=sharing).
 
-  - Identifica el perímetro del hexágono asignado, para que no colectes
-    fuera de éste.
+    -   Identifica el perímetro del hexágono asignado, para que no
+        colectes fuera de éste.
 
-  - Abre ODK Collect o GIC Collect y llena un formulario nuevo de ODK
-    “Biogeografia-202302”. Completa los datos que te pide en la primera
-    página (coordenadas del centroide, foto, etc.). Guarda el formulario
-    presionando el icono del *diskette*, pero déjalo abierto, no lo
-    cierres para que puedas volver a él más tarde. Este formulario será
-    usado a lo largo de todo el hexágono, por eso lo dejarás abierto, y
-    sólo lo cerrarás cuando hayas terminado el hexágono íntegramente.
+    -   Abre ODK Collect o GIC Collect y llena un formulario nuevo de
+        ODK “Biogeografia-202302”. Completa los datos que te pide en la
+        primera página (coordenadas del centroide, foto, etc.). Guarda
+        el formulario presionando el icono del *diskette*, pero déjalo
+        abierto, no lo cierres para que puedas volver a él más tarde.
+        Este formulario será usado a lo largo de todo el hexágono, por
+        eso lo dejarás abierto, y sólo lo cerrarás cuando hayas
+        terminado el hexágono íntegramente.
 
-  - Colecta tantas hormigas como puedas, tanto en suelo como en corteza
-    de troncos, paredes e infraestructuras. Para ello, abre el frasco,
-    humedece el pincel en alcohol (mantén el frasco abierto mientras
-    colectas, lo cual hará que se evapore algo de alcohol, pero no te
-    preocupes, no se evaporará todo), moja la hormiga a colectar para
-    aturdirla, atrápala con el pincel y llévala al frasco. Repite este
-    procedimiento, moviéndote en el hexágono (no te “claves” en un único
-    lugar) sin salir de él por **al menos 20 minutos, máximo 30
-    minutos**. Recuerda colectar no sólo en suelo, también en troncos y
-    paredes.
+    -   Colecta tantas hormigas como puedas, tanto en suelo como en
+        corteza de troncos, paredes e infraestructuras. Para ello, abre
+        el frasco, humedece el pincel en alcohol (mantén el frasco
+        abierto mientras colectas, lo cual hará que se evapore algo de
+        alcohol, pero no te preocupes, no se evaporará todo), moja la
+        hormiga a colectar para aturdirla, atrápala con el pincel y
+        llévala al frasco. Repite este procedimiento, moviéndote en el
+        hexágono (no te “claves” en un único lugar) sin salir de él por
+        **al menos 20 minutos, máximo 30 minutos**. Recuerda colectar no
+        sólo en suelo, también en troncos y paredes.
 
-  - Cuando haya pasado el tiempo, podrás cerrar el formulario. Para
-    ello, presiona “Siguiente” y rellena la última pregunta del
-    formulario sobre observaciones, si aplica. Si tienes alguna que
-    añadir que no hayas podido rellenar en los campos cerrados del
-    formulario, este es el momento. Si no tienes nada que añadir,
-    presiona siguiente y guarda tu formulario. Puedes marcarlo como
-    finalizado y enviarlo si lo deseas. También puede desmarcar la
-    casilla de “Finalizado”, si tienes previsto revisarlo más adelante;
-    pero no olvides subir tu formulario al servidor tan pronto como
-    puedas. Presiona guardar y el formulario se cerrará.
+    -   Cuando haya pasado el tiempo, podrás cerrar el formulario. Para
+        ello, presiona “Siguiente” y rellena la última pregunta del
+        formulario sobre observaciones, si aplica. Si tienes alguna que
+        añadir que no hayas podido rellenar en los campos cerrados del
+        formulario, este es el momento. Si no tienes nada que añadir,
+        presiona siguiente y guarda tu formulario. Puedes marcarlo como
+        finalizado y enviarlo si lo deseas. También puede desmarcar la
+        casilla de “Finalizado”, si tienes previsto revisarlo más
+        adelante; pero no olvides subir tu formulario al servidor tan
+        pronto como puedas. Presiona guardar y el formulario se cerrará.
 
-  - Inserta una etiqueta en el frasco (lápiz y papel vegetal). Lo mínimo
-    que deberías incluir es: código del hexágono, tus nombres y
-    apellidos, fecha. Si puedes, añade coordenadas del centroide del
-    hexágono en grados y grados decimales (e.g. 18.23424$^\circ$,
-    -71.82321$^\circ$).
+    -   Inserta una etiqueta en el frasco (lápiz y papel vegetal). Lo
+        mínimo que deberías incluir es: código del hexágono, tus nombres
+        y apellidos, fecha. Si puedes, añade coordenadas del centroide
+        del hexágono en grados y grados decimales
+        (e.g. 18.23424![^\circ](https://latex.codecogs.com/png.image?%5Cdpi%7B110%7D&space;%5Cbg_white&space;%5E%5Ccirc "^\circ"),
+        -71.82321![^\circ](https://latex.codecogs.com/png.image?%5Cdpi%7B110%7D&space;%5Cbg_white&space;%5E%5Ccirc "^\circ")).
 
-  - Repite el procedimiento anterior otras 14 veces, hasta que obtengas
-    una muestra total de 15 hexágonos.
+    -   Repite el procedimiento anterior otras 14 veces, hasta que
+        obtengas una muestra total de 15 hexágonos.
 
 ### Hexágonos asignados
+
+``` r
+estudiantes <- read.csv('../../courseid_2928_participants.csv')
+estudiantes$id_estudiante <- paste(estudiantes$Nombre, estudiantes$Apellido.s.)
+hexagonos <- st_read('data/h3-res-12-no-edificios-3-grupos.gpkg')
+```
+
+    ## Reading layer `h3-res-12-no-edificios-3-grupos' from data source 
+    ##   `/home/jr/Documentos/clases_UASD/202302/repo-gh/geo131/manuscrito/data/h3-res-12-no-edificios-3-grupos.gpkg' 
+    ##   using driver `GPKG'
+    ## Simple feature collection with 1490 features and 7 fields
+    ## Geometry type: POLYGON
+    ## Dimension:     XY
+    ## Bounding box:  xmin: 403000 ymin: 2040000 xmax: 404000 ymax: 2040000
+    ## Projected CRS: WGS 84 / UTM zone 19N
+
+``` r
+# Muestreo estratificado
+set.seed(99)
+asignaciones <- hexagonos %>%
+  group_by(grupo) %>%
+  sample_n(size = 5 * nrow(estudiantes)) %>%
+  ungroup() %>%
+  group_by(grupo) %>%
+  mutate(id_estudiante = rep(estudiantes$id_estudiante, each = 5)) %>%
+  ungroup()
+
+# Verificar la asignación
+table(asignaciones$grupo, asignaciones$id_estudiante)
+```
+
+    ##       
+    ##        Adrian Rafael Diplan Montas Alan   Manuel  Contreras Sanchez Ana García
+    ##   CONS                           5                                5          5
+    ##   DOSE                           5                                5          5
+    ##   SUEL                           5                                5          5
+    ##       
+    ##        Angel Rolando Gomez Gonzalez Arisleydi Mejia De La Cruz
+    ##   CONS                            5                          5
+    ##   DOSE                            5                          5
+    ##   SUEL                            5                          5
+    ##       
+    ##        Bryan Josué Fúnez Ramos Carmen Muñoz Patricio Claribel Reyes Ramirez
+    ##   CONS                       5                     5                      5
+    ##   DOSE                       5                     5                      5
+    ##   SUEL                       5                     5                      5
+    ##       
+    ##        Eddy Bienvenido Ulloa Almonte Emely Fabianny Rodriguez Martinez
+    ##   CONS                             5                                 5
+    ##   DOSE                             5                                 5
+    ##   SUEL                             5                                 5
+    ##       
+    ##        Emely Herrera Arias Floranny Lorenzo Domínguez Franchesca Feliz Linares
+    ##   CONS                   5                          5                        5
+    ##   DOSE                   5                          5                        5
+    ##   SUEL                   5                          5                        5
+    ##       
+    ##        Joel Benjamin Perez Garcia José Ramón Martínez Batlle
+    ##   CONS                          5                          5
+    ##   DOSE                          5                          5
+    ##   SUEL                          5                          5
+    ##       
+    ##        Manuel Enrique Ure?a Reyes Miguel  Landestoy Tejeda Ramona Geraldo Muñoz
+    ##   CONS                          5                        5                    5
+    ##   DOSE                          5                        5                    5
+    ##   SUEL                          5                        5                    5
+    ##       
+    ##        Saderis Carmona Marte Scarlin Adames Lantigua Unifer Tavarez Ferreras
+    ##   CONS                     5                       5                       5
+    ##   DOSE                     5                       5                       5
+    ##   SUEL                     5                       5                       5
+    ##       
+    ##        Valeria Novas Perez Yenny Mabel Santana
+    ##   CONS                   5                   5
+    ##   DOSE                   5                   5
+    ##   SUEL                   5                   5
 
 ``` r
 asignaciones %>%
@@ -171,8 +250,8 @@ id_hexagono
 Adrian Rafael Diplan Montas
 </td>
 <td style="text-align:left;">
-H0029, H0047, H0129, H0153, H0189, H0277, H0481, H0584, H0718, H0759,
-H0905, H0951, H1030, H1389, H1394
+H0082, H0091, H0150, H0280, H0463, H0516, H0530, H0660, H0756, H0994,
+H1183, H1275, H1315, H1317, H1373
 </td>
 </tr>
 <tr>
@@ -180,8 +259,8 @@ H0905, H0951, H1030, H1389, H1394
 Alan Manuel Contreras Sanchez
 </td>
 <td style="text-align:left;">
-H0317, H0433, H0636, H0755, H0767, H0786, H0884, H0891, H0907, H1115,
-H1159, H1268, H1347, H1416, H1453
+H0312, H0462, H0556, H0637, H0641, H0652, H0930, H0974, H1232, H1326,
+H1397, H1422, H1433, H1438, H1468
 </td>
 </tr>
 <tr>
@@ -189,8 +268,8 @@ H1159, H1268, H1347, H1416, H1453
 Ana García
 </td>
 <td style="text-align:left;">
-H0017, H0072, H0415, H0539, H0609, H0630, H0687, H0890, H0945, H1022,
-H1043, H1275, H1315, H1374, H1460
+H0069, H0115, H0315, H0318, H0322, H0378, H0418, H0487, H0515, H0585,
+H0600, H0987, H1080, H1366, H1409
 </td>
 </tr>
 <tr>
@@ -198,8 +277,8 @@ H1043, H1275, H1315, H1374, H1460
 Angel Rolando Gomez Gonzalez
 </td>
 <td style="text-align:left;">
-H0046, H0166, H0257, H0301, H0400, H0419, H0445, H0671, H0910, H1051,
-H1106, H1114, H1217, H1346, H1388
+H0046, H0394, H0420, H0548, H0827, H0836, H0910, H0990, H1014, H1243,
+H1256, H1301, H1385, H1394, H1426
 </td>
 </tr>
 <tr>
@@ -207,8 +286,8 @@ H1106, H1114, H1217, H1346, H1388
 Arisleydi Mejia De La Cruz
 </td>
 <td style="text-align:left;">
-H0016, H0020, H0222, H0269, H0294, H0375, H0492, H0641, H0808, H0839,
-H0861, H1070, H1081, H1174, H1448
+H0031, H0158, H0256, H0303, H0395, H0453, H0526, H0636, H0888, H0904,
+H0980, H1011, H1035, H1276, H1283
 </td>
 </tr>
 <tr>
@@ -216,8 +295,8 @@ H0861, H1070, H1081, H1174, H1448
 Bryan Josué Fúnez Ramos
 </td>
 <td style="text-align:left;">
-H0094, H0200, H0288, H0308, H0475, H0479, H0566, H0621, H0672, H0734,
-H0740, H0987, H1309, H1327, H1435
+H0268, H0517, H0571, H0647, H0736, H0834, H0880, H0911, H0944, H0956,
+H1069, H1119, H1207, H1304, H1344
 </td>
 </tr>
 <tr>
@@ -225,8 +304,8 @@ H0740, H0987, H1309, H1327, H1435
 Carmen Muñoz Patricio
 </td>
 <td style="text-align:left;">
-H0115, H0140, H0149, H0218, H0355, H0369, H0399, H0628, H0783, H0838,
-H0928, H1024, H1094, H1265, H1452
+H0167, H0254, H0296, H0348, H0359, H0632, H0903, H0915, H1045, H1051,
+H1071, H1195, H1250, H1333, H1383
 </td>
 </tr>
 <tr>
@@ -234,8 +313,8 @@ H0928, H1024, H1094, H1265, H1452
 Claribel Reyes Ramirez
 </td>
 <td style="text-align:left;">
-H0067, H0122, H0150, H0498, H0504, H0546, H0570, H0596, H0720, H0748,
-H0820, H0962, H0980, H1255, H1321
+H0056, H0088, H0191, H0202, H0345, H0347, H0365, H0390, H0421, H0518,
+H0540, H0561, H0590, H1008, H1401
 </td>
 </tr>
 <tr>
@@ -243,8 +322,8 @@ H0820, H0962, H0980, H1255, H1321
 Eddy Bienvenido Ulloa Almonte
 </td>
 <td style="text-align:left;">
-H0001, H0126, H0261, H0430, H0462, H0541, H0548, H0561, H0600, H0717,
-H0821, H0933, H1012, H1183, H1430
+H0364, H0399, H0528, H0554, H0620, H0683, H0692, H0779, H1070, H1139,
+H1209, H1271, H1328, H1362, H1462
 </td>
 </tr>
 <tr>
@@ -252,8 +331,8 @@ H0821, H0933, H1012, H1183, H1430
 Emely Fabianny Rodriguez Martinez
 </td>
 <td style="text-align:left;">
-H0053, H0101, H0130, H0145, H0179, H0297, H0669, H0741, H0809, H0810,
-H0941, H1210, H1332, H1420, H1444
+H0035, H0064, H0194, H0233, H0564, H0753, H0829, H0924, H0960, H0967,
+H1154, H1160, H1196, H1247, H1249
 </td>
 </tr>
 <tr>
@@ -261,8 +340,8 @@ H0941, H1210, H1332, H1420, H1444
 Emely Herrera Arias
 </td>
 <td style="text-align:left;">
-H0106, H0114, H0253, H0588, H0743, H0751, H0911, H0925, H0940, H1017,
-H1075, H1116, H1234, H1283, H1410
+H0089, H0111, H0207, H0290, H0291, H0387, H0764, H0936, H0975, H0988,
+H1017, H1120, H1152, H1410, H1421
 </td>
 </tr>
 <tr>
@@ -270,8 +349,8 @@ H1075, H1116, H1234, H1283, H1410
 Floranny Lorenzo Domínguez
 </td>
 <td style="text-align:left;">
-H0065, H0118, H0204, H0337, H0363, H0724, H0944, H1026, H1042, H1096,
-H1158, H1223, H1324, H1472, H1482
+H0012, H0221, H0234, H0265, H0434, H0539, H0730, H0950, H1123, H1284,
+H1289, H1331, H1424, H1448, H1490
 </td>
 </tr>
 <tr>
@@ -279,8 +358,8 @@ H1158, H1223, H1324, H1472, H1482
 Franchesca Feliz Linares
 </td>
 <td style="text-align:left;">
-H0021, H0066, H0226, H0234, H0272, H0485, H0855, H1009, H1035, H1089,
-H1220, H1259, H1260, H1289, H1413
+H0232, H0292, H0356, H0370, H0406, H0441, H0460, H0532, H0646, H0682,
+H0984, H0992, H1132, H1169, H1288
 </td>
 </tr>
 <tr>
@@ -288,8 +367,8 @@ H1220, H1259, H1260, H1289, H1413
 Joel Benjamin Perez Garcia
 </td>
 <td style="text-align:left;">
-H0013, H0040, H0078, H0236, H0293, H0339, H0447, H0448, H0469, H0631,
-H0935, H0994, H1102, H1145, H1187
+H0036, H0045, H0169, H0178, H0317, H0349, H0470, H0625, H0709, H0711,
+H0969, H1068, H1098, H1134, H1259
 </td>
 </tr>
 <tr>
@@ -297,8 +376,8 @@ H0935, H0994, H1102, H1145, H1187
 José Ramón Martínez Batlle
 </td>
 <td style="text-align:left;">
-H0095, H0183, H0240, H0331, H0386, H0410, H0412, H0425, H0460, H0581,
-H0726, H0801, H1037, H1073, H1480
+H0066, H0188, H0297, H0371, H0472, H0617, H0697, H0739, H0767, H0786,
+H0941, H1036, H1053, H1347, H1459
 </td>
 </tr>
 <tr>
@@ -306,8 +385,8 @@ H0726, H0801, H1037, H1073, H1480
 Manuel Enrique Ure?a Reyes
 </td>
 <td style="text-align:left;">
-H0018, H0173, H0178, H0341, H0372, H0450, H0806, H0888, H0953, H0975,
-H1091, H1180, H1293, H1380, H1385
+H0112, H0157, H0271, H0358, H0575, H0586, H0728, H0733, H0772, H0847,
+H0939, H1000, H1039, H1096, H1245
 </td>
 </tr>
 <tr>
@@ -315,8 +394,8 @@ H1091, H1180, H1293, H1380, H1385
 Miguel Landestoy Tejeda
 </td>
 <td style="text-align:left;">
-H0014, H0220, H0340, H0366, H0404, H0418, H0440, H0595, H0597, H0785,
-H1011, H1133, H1168, H1218, H1322
+H0015, H0077, H0113, H0171, H0301, H0354, H0675, H0719, H0724, H0838,
+H1191, H1229, H1381, H1450, H1472
 </td>
 </tr>
 <tr>
@@ -324,8 +403,8 @@ H1011, H1133, H1168, H1218, H1322
 Ramona Geraldo Muñoz
 </td>
 <td style="text-align:left;">
-H0036, H0191, H0258, H0282, H0367, H0540, H0879, H0881, H0895, H0974,
-H1044, H1135, H1173, H1254, H1257
+H0098, H0192, H0333, H0375, H0488, H0677, H0717, H0781, H0796, H0815,
+H0867, H1043, H1219, H1318, H1337
 </td>
 </tr>
 <tr>
@@ -333,8 +412,8 @@ H1044, H1135, H1173, H1254, H1257
 Saderis Carmona Marte
 </td>
 <td style="text-align:left;">
-H0116, H0290, H0487, H0549, H0764, H0779, H0798, H0852, H1087, H1140,
-H1141, H1189, H1242, H1320, H1342
+H0198, H0274, H0338, H0377, H0419, H0423, H0503, H0524, H0623, H0995,
+H1142, H1171, H1246, H1415, H1446
 </td>
 </tr>
 <tr>
@@ -342,8 +421,8 @@ H1141, H1189, H1242, H1320, H1342
 Scarlin Adames Lantigua
 </td>
 <td style="text-align:left;">
-H0076, H0160, H0254, H0534, H0605, H0675, H0812, H0912, H1177, H1279,
-H1280, H1363, H1401, H1407, H1458
+H0161, H0208, H0216, H0601, H0609, H0612, H0845, H0926, H1010, H1050,
+H1115, H1257, H1330, H1359, H1367
 </td>
 </tr>
 <tr>
@@ -351,8 +430,8 @@ H1280, H1363, H1401, H1407, H1458
 Unifer Tavarez Ferreras
 </td>
 <td style="text-align:left;">
-H0108, H0225, H0380, H0599, H0612, H0625, H0647, H0682, H0782, H0847,
-H0993, H1069, H1080, H1290, H1406
+H0009, H0058, H0148, H0286, H0366, H0465, H0811, H0982, H1027, H1046,
+H1131, H1156, H1434, H1458, H1477
 </td>
 </tr>
 <tr>
@@ -360,8 +439,8 @@ H0993, H1069, H1080, H1290, H1406
 Valeria Novas Perez
 </td>
 <td style="text-align:left;">
-H0028, H0175, H0202, H0310, H0575, H0646, H0707, H0840, H0930, H0942,
-H1185, H1274, H1351, H1352, H1421
+H0235, H0250, H0269, H0380, H0542, H0547, H0582, H0759, H0790, H0812,
+H0932, H1267, H1350, H1393, H1463
 </td>
 </tr>
 <tr>
@@ -369,8 +448,8 @@ H1185, H1274, H1351, H1352, H1421
 Yenny Mabel Santana
 </td>
 <td style="text-align:left;">
-H0010, H0064, H0281, H0459, H0542, H0655, H0692, H0714, H0727, H0811,
-H0969, H1021, H1050, H1130, H1461
+H0022, H0099, H0159, H0195, H0267, H0288, H0360, H0384, H0388, H0403,
+H0497, H0557, H0795, H1240, H1368
 </td>
 </tr>
 </tbody>
@@ -380,60 +459,62 @@ H0969, H1021, H1050, H1130, H1461
 
 **Materiales necesarios para la colecta**
 
-- Diecisiete envases de plástico (dos de respaldo). Puedes usar viales
-  de 2 ml (se adquieren en tiendas especializadas normalmente) o envases
-  de toma de muestras de farmacia. Los viales son
+-   Diecisiete envases de plástico (dos de respaldo). Puedes usar viales
+    de 2 ml (se adquieren en tiendas especializadas normalmente) o
+    envases de toma de muestras de farmacia. Los viales son
 
-- Un lápiz de carbón.
+-   Un lápiz de carbón.
 
-- Papel vegetal en cantidad suficiente para generar 15 etiquetas. Las
-  etiquetas serán lo suficientemente pequeñas para que quepan dentro del
-  envase, y lo suficientemente grandes para colocar la siguiente
-  información: código del hexágono, tus nombres y apellidos, fecha. Si
-  puedes, añade coordenadas de cualquier punto dentro del hexágono en
-  grados y grados decimales (e.g. 18.23424$^\circ$, -71.82321$^\circ$).
+-   Papel vegetal en cantidad suficiente para generar 15 etiquetas. Las
+    etiquetas serán lo suficientemente pequeñas para que quepan dentro
+    del envase, y lo suficientemente grandes para colocar la siguiente
+    información: código del hexágono, tus nombres y apellidos, fecha. Si
+    puedes, añade coordenadas de cualquier punto dentro del hexágono en
+    grados y grados decimales
+    (e.g. 18.23424![^\circ](https://latex.codecogs.com/png.image?%5Cdpi%7B110%7D&space;%5Cbg_white&space;%5E%5Ccirc "^\circ"),
+    -71.82321![^\circ](https://latex.codecogs.com/png.image?%5Cdpi%7B110%7D&space;%5Cbg_white&space;%5E%5Ccirc "^\circ")).
 
-- Alcohol isopropílico. Este alcohol destruye (con el tiempo) las
-  muestras, pero las conserva bien si sólo pasan unos pocos días. El
-  alcohol etílico sería la opción idónea, pero está muy caro y debemos
-  usar isopropílico como alternativa.
+-   Alcohol isopropílico. Este alcohol destruye (con el tiempo) las
+    muestras, pero las conserva bien si sólo pasan unos pocos días. El
+    alcohol etílico sería la opción idónea, pero está muy caro y debemos
+    usar isopropílico como alternativa.
 
-- Pincel, el cual humedecerás para atrapar las hormigas. La única
-  condición es que sea de una anchura menor a la del frasco, para que
-  puedes entrarlo y sacarlo del mismo con facilidad.
+-   Pincel, el cual humedecerás para atrapar las hormigas. La única
+    condición es que sea de una anchura menor a la del frasco, para que
+    puedes entrarlo y sacarlo del mismo con facilidad.
 
-- **Celular**
+-   **Celular**
 
-  - Android. Descargar la aplicación [ODK
-    Collect](https://play.google.com/store/apps/details?id=org.odk.collect.android)
-    desde el Play Store. Recomiendo usar Android en lugar de iPhone.
+    -   Android. Descargar la aplicación [ODK
+        Collect](https://play.google.com/store/apps/details?id=org.odk.collect.android)
+        desde el Play Store. Recomiendo usar Android en lugar de iPhone.
 
-  - iPhone. Descargar GIC Collect. No he probado esta aplicación, por lo
-    que es importante que realices tus propias pruebas (ver punto
-    siguiente)
+    -   iPhone. Descargar GIC Collect. No he probado esta aplicación,
+        por lo que es importante que realices tus propias pruebas (ver
+        punto siguiente)
 
-  - Configurar y probar. Configurar la aplicación ODK Collect o GIC
-    Collect con los detalles que daré en el aula. Descarga, desde mi
-    servidor ODK, el formulario “Biogeografia-202302” presionando
-    “Obtener formulario en blanco”. A continuación, haz una prueba
-    intentando llenar (sin enviar) un formulario nuevo, para lo cual
-    dirígite a “Llenar Nuevo Formulario”, presionar sobre el nombre del
-    formulario y comenzar a rellenar. Esta prueba te servirá para
-    conocer, a priori, el contenido que rellenarás en terreno. Más
-    detalles, en el [tutorial correspondiente]()
+    -   Configurar y probar. Configurar la aplicación ODK Collect o GIC
+        Collect con los detalles que daré en el aula. Descarga, desde mi
+        servidor ODK, el formulario “Biogeografia-202302” presionando
+        “Obtener formulario en blanco”. A continuación, haz una prueba
+        intentando llenar (sin enviar) un formulario nuevo, para lo cual
+        dirígite a “Llenar Nuevo Formulario”, presionar sobre el nombre
+        del formulario y comenzar a rellenar. Esta prueba te servirá
+        para conocer, a priori, el contenido que rellenarás en terreno.
+        Más detalles, en el [tutorial correspondiente]()
 
 **Materiales personales recomendados**
 
-- **¡Mucha (pero mucha) agua potable!**
+-   **¡Mucha (pero mucha) agua potable!**
 
-- **Protección contra el sol: protector solar en crema, camisa manga
-  larga, sombrero, ¡TODO es útil!**
+-   **Protección contra el sol: protector solar en crema, camisa manga
+    larga, sombrero, ¡TODO es útil!**
 
-- **Comida** (llevarla puesta, es decir, lista para abrir y comer en
-  cualquier lugar y momento).
+-   **Comida** (llevarla puesta, es decir, lista para abrir y comer en
+    cualquier lugar y momento).
 
-- Repelente. En el campus de la UASD no suele haber mosquitos, pero no
-  está de más llevarlo por si acaso.
+-   Repelente. En el campus de la UASD no suele haber mosquitos, pero no
+    está de más llevarlo por si acaso.
 
 ## Redacta la subsección “Diseño de muestreo y colecta de datos” de la sección “Metodología” de tu manuscrito
 
@@ -459,34 +540,36 @@ usada, lo importante es que apliques lo aprendido en la práctica 2.
 
 Si vas a usar la plantilla facilitada por mí, te doy algunos consejos:
 
-- Investiga sobre qué es una plantilla. Básicamente, es un archivo en el
-  que te puedes basar para crear otros.
-- Al ser una plantilla, si la abres con “doble-click”, se creará un
-  documento basado en ella que posteriormente deberás guardar con un
-  nombre asignado por ti.
-- Puedes usarla en GoogleDocs y en LibreOffice Writer también, pero su
-  compatibilidad máxima se consigue en Microsoft Word.
-- La plantilla básicamente contiene definiciones de estilos para el
-  título principal, títulos de nivel 1 a 3, texto de cuerpo (estilo
-  “Normal”), texto de tablas, texto de pies de figuras y tablas,
-  bibliografía, y estilo de párrafo para las figuras (suena raro, pero
-  sí, las figuras “no flotantes”, que se comportan como texto, también
-  tiene definición de estilos). Faltan estilos, como los de autor,
-  viñetas, etc. Los puedes crear libremente.
-- El texto y las figuras que he colocado de ejemplo son un mero relleno.
-  Verás que puse una tabla, una figura, una ecuación, algunas citas y la
-  lista de referencias. Debes borrar todo el contenido de ejemplo, pues
-  es irrelevante para tu manuscrito.
-- No es obligatorio usar esta plantilla, sólo úsala si la ves útil. Si
-  ya dispones de un documento donde usas estilos apropiadamente, puedes
-  seguir por esa vía. Si ya tienes un documento comenzado, y quieres
-  basarte en los estilos de esta plantilla, puedes importar sus estilos
-  (los de la plantilla) a tu documento (hay tutoriales sobre ello, como
-  [éste](https://www.youtube.com/watch?v=YG7FhZvR2Do)).
-- No me canso de repetirlo: consulta al tali. Es viable por correo, sólo
-  que es necesario indicar qué problema obtuviste (error, fallo de
-  funcionalidad, etc.) al intentar hacer qué cosa. Por ejemplo: “*me dio
-  error A al intentar ejecutar B, aquí dejo una captura de pantalla*”.
+-   Investiga sobre qué es una plantilla. Básicamente, es un archivo en
+    el que te puedes basar para crear otros.
+-   Al ser una plantilla, si la abres con “doble-click”, se creará un
+    documento basado en ella que posteriormente deberás guardar con un
+    nombre asignado por ti.
+-   Puedes usarla en GoogleDocs y en LibreOffice Writer también, pero su
+    compatibilidad máxima se consigue en Microsoft Word.
+-   La plantilla básicamente contiene definiciones de estilos para el
+    título principal, títulos de nivel 1 a 3, texto de cuerpo (estilo
+    “Normal”), texto de tablas, texto de pies de figuras y tablas,
+    bibliografía, y estilo de párrafo para las figuras (suena raro, pero
+    sí, las figuras “no flotantes”, que se comportan como texto, también
+    tiene definición de estilos). Faltan estilos, como los de autor,
+    viñetas, etc. Los puedes crear libremente.
+-   El texto y las figuras que he colocado de ejemplo son un mero
+    relleno. Verás que puse una tabla, una figura, una ecuación, algunas
+    citas y la lista de referencias. Debes borrar todo el contenido de
+    ejemplo, pues es irrelevante para tu manuscrito.
+-   No es obligatorio usar esta plantilla, sólo úsala si la ves útil. Si
+    ya dispones de un documento donde usas estilos apropiadamente,
+    puedes seguir por esa vía. Si ya tienes un documento comenzado, y
+    quieres basarte en los estilos de esta plantilla, puedes importar
+    sus estilos (los de la plantilla) a tu documento (hay tutoriales
+    sobre ello, como
+    [éste](https://www.youtube.com/watch?v=YG7FhZvR2Do)).
+-   No me canso de repetirlo: consulta al tali. Es viable por correo,
+    sólo que es necesario indicar qué problema obtuviste (error, fallo
+    de funcionalidad, etc.) al intentar hacer qué cosa. Por ejemplo:
+    “*me dio error A al intentar ejecutar B, aquí dejo una captura de
+    pantalla*”.
 
 Finalmente, transcribo el recuadro sobre el tipo de voz a usar para
 refrescarlo nuevamente; asegúrate de seguir estas recomendaciones.
@@ -500,13 +583,13 @@ refrescarlo nuevamente; asegúrate de seguir estas recomendaciones.
 >
 > **Voz activa en manuscrito científicos:**
 >
-> - **Analicé** los datos utilizando el software R.
+> -   **Analicé** los datos utilizando el software R.
 >
-> - El experimento **mostró** que la temperatura afecta directamente la
->   tasa de reacción.
+> -   El experimento **mostró** que la temperatura afecta directamente
+>     la tasa de reacción.
 >
-> - Los investigadores **encontraron** una correlación significativa
->   entre las dos variables.
+> -   Los investigadores **encontraron** una correlación significativa
+>     entre las dos variables.
 >
 > La voz activa puede hacer que la redacción parezca más directa y
 > clara, y es especialmente útil cuando el/la autor/a quiere enfatizar
@@ -515,13 +598,13 @@ refrescarlo nuevamente; asegúrate de seguir estas recomendaciones.
 >
 > **Voz pasiva en artículos científicos:**
 >
-> - Los datos **fueron analizados** utilizando el software R.
+> -   Los datos **fueron analizados** utilizando el software R.
 >
-> - **Se observó** que la temperatura afecta directamente la tasa de
->   reacción.
+> -   **Se observó** que la temperatura afecta directamente la tasa de
+>     reacción.
 >
-> - Una correlación significativa **fue encontrada** entre las dos
->   variables.
+> -   Una correlación significativa **fue encontrada** entre las dos
+>     variables.
 >
 > La voz pasiva es común en la redacción científica porque a menudo se
 > prefiere un tono más impersonal, enfocando la atención en los
@@ -552,17 +635,17 @@ refrescarlo nuevamente; asegúrate de seguir estas recomendaciones.
 
 **Notas**:
 
-- Es fundamental seguir el protocolo de colecta y registro para
-  garantizar la validez de los datos.
+-   Es fundamental seguir el protocolo de colecta y registro para
+    garantizar la validez de los datos.
 
-- La redacción y estructura del documento son esenciales para entender y
-  replicar la metodología empleada.
+-   La redacción y estructura del documento son esenciales para entender
+    y replicar la metodología empleada.
 
-- Las referencias y citas son cruciales para respaldar la metodología y
-  dar crédito a las fuentes originales.
+-   Las referencias y citas son cruciales para respaldar la metodología
+    y dar crédito a las fuentes originales.
 
-- La aplicación adecuada de estilos y formato mejora la legibilidad y
-  presentación del documento.
+-   La aplicación adecuada de estilos y formato mejora la legibilidad y
+    presentación del documento.
 
 ## Referencias
 
