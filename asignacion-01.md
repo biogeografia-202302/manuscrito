@@ -171,8 +171,8 @@ id_hexagono
 Adrian Rafael Diplan Montas
 </td>
 <td style="text-align:left;">
-H0070, H0083, H0147, H0176, H0206, H0304, H0364, H0496, H0705, H0817,
-H0886, H0950, H0966, H1386, H1394
+H0029, H0047, H0129, H0153, H0189, H0277, H0481, H0584, H0718, H0759,
+H0905, H0951, H1030, H1389, H1394
 </td>
 </tr>
 <tr>
@@ -180,8 +180,8 @@ H0886, H0950, H0966, H1386, H1394
 Alan Manuel Contreras Sanchez
 </td>
 <td style="text-align:left;">
-H0003, H0039, H0198, H0324, H0329, H0355, H0489, H0592, H0659, H0682,
-H0988, H1004, H1013, H1171, H1399
+H0317, H0433, H0636, H0755, H0767, H0786, H0884, H0891, H0907, H1115,
+H1159, H1268, H1347, H1416, H1453
 </td>
 </tr>
 <tr>
@@ -189,8 +189,8 @@ H0988, H1004, H1013, H1171, H1399
 Ana García
 </td>
 <td style="text-align:left;">
-H0025, H0067, H0108, H0142, H0174, H0188, H0234, H0482, H0688, H1022,
-H1034, H1206, H1340, H1355, H1486
+H0017, H0072, H0415, H0539, H0609, H0630, H0687, H0890, H0945, H1022,
+H1043, H1275, H1315, H1374, H1460
 </td>
 </tr>
 <tr>
@@ -198,8 +198,8 @@ H1034, H1206, H1340, H1355, H1486
 Angel Rolando Gomez Gonzalez
 </td>
 <td style="text-align:left;">
-H0061, H0190, H0316, H0328, H0348, H0368, H0517, H0525, H0549, H0554,
-H0678, H0842, H0887, H0928, H1123
+H0046, H0166, H0257, H0301, H0400, H0419, H0445, H0671, H0910, H1051,
+H1106, H1114, H1217, H1346, H1388
 </td>
 </tr>
 <tr>
@@ -207,8 +207,8 @@ H0678, H0842, H0887, H0928, H1123
 Arisleydi Mejia De La Cruz
 </td>
 <td style="text-align:left;">
-H0043, H0132, H0314, H0416, H0560, H0730, H0968, H1032, H1069, H1247,
-H1264, H1289, H1309, H1408, H1438
+H0016, H0020, H0222, H0269, H0294, H0375, H0492, H0641, H0808, H0839,
+H0861, H1070, H1081, H1174, H1448
 </td>
 </tr>
 <tr>
@@ -216,8 +216,8 @@ H1264, H1289, H1309, H1408, H1438
 Bryan Josué Fúnez Ramos
 </td>
 <td style="text-align:left;">
-H0077, H0203, H0223, H0256, H0332, H0350, H0419, H0492, H0602, H0731,
-H0852, H0867, H1001, H1213, H1404
+H0094, H0200, H0288, H0308, H0475, H0479, H0566, H0621, H0672, H0734,
+H0740, H0987, H1309, H1327, H1435
 </td>
 </tr>
 <tr>
@@ -225,8 +225,8 @@ H0852, H0867, H1001, H1213, H1404
 Carmen Muñoz Patricio
 </td>
 <td style="text-align:left;">
-H0140, H0191, H0405, H0423, H0446, H0453, H0474, H0491, H0586, H0711,
-H0789, H0835, H0892, H1223, H1393
+H0115, H0140, H0149, H0218, H0355, H0369, H0399, H0628, H0783, H0838,
+H0928, H1024, H1094, H1265, H1452
 </td>
 </tr>
 <tr>
@@ -234,8 +234,8 @@ H0789, H0835, H0892, H1223, H1393
 Claribel Reyes Ramirez
 </td>
 <td style="text-align:left;">
-H0058, H0080, H0087, H0112, H0113, H0116, H0382, H0438, H0724, H0953,
-H0954, H0963, H1273, H1341, H1442
+H0067, H0122, H0150, H0498, H0504, H0546, H0570, H0596, H0720, H0748,
+H0820, H0962, H0980, H1255, H1321
 </td>
 </tr>
 <tr>
@@ -243,8 +243,8 @@ H0954, H0963, H1273, H1341, H1442
 Eddy Bienvenido Ulloa Almonte
 </td>
 <td style="text-align:left;">
-H0056, H0100, H0290, H0370, H0427, H0562, H0757, H0856, H0931, H1023,
-H1070, H1227, H1376, H1436, H1450
+H0001, H0126, H0261, H0430, H0462, H0541, H0548, H0561, H0600, H0717,
+H0821, H0933, H1012, H1183, H1430
 </td>
 </tr>
 <tr>
@@ -252,8 +252,8 @@ H1070, H1227, H1376, H1436, H1450
 Emely Fabianny Rodriguez Martinez
 </td>
 <td style="text-align:left;">
-H0079, H0217, H0243, H0443, H0473, H0507, H0552, H0597, H0675, H0984,
-H1048, H1320, H1351, H1378, H1383
+H0053, H0101, H0130, H0145, H0179, H0297, H0669, H0741, H0809, H0810,
+H0941, H1210, H1332, H1420, H1444
 </td>
 </tr>
 <tr>
@@ -261,8 +261,8 @@ H1048, H1320, H1351, H1378, H1383
 Emely Herrera Arias
 </td>
 <td style="text-align:left;">
-H0093, H0107, H0413, H0516, H0653, H0720, H0741, H0860, H0876, H0907,
-H1046, H1063, H1305, H1343, H1481
+H0106, H0114, H0253, H0588, H0743, H0751, H0911, H0925, H0940, H1017,
+H1075, H1116, H1234, H1283, H1410
 </td>
 </tr>
 <tr>
@@ -270,8 +270,8 @@ H1046, H1063, H1305, H1343, H1481
 Floranny Lorenzo Domínguez
 </td>
 <td style="text-align:left;">
-H0106, H0160, H0189, H0226, H0271, H0376, H0557, H0578, H0727, H0736,
-H0837, H0861, H1137, H1276, H1332
+H0065, H0118, H0204, H0337, H0363, H0724, H0944, H1026, H1042, H1096,
+H1158, H1223, H1324, H1472, H1482
 </td>
 </tr>
 <tr>
@@ -279,8 +279,8 @@ H0837, H0861, H1137, H1276, H1332
 Franchesca Feliz Linares
 </td>
 <td style="text-align:left;">
-H0082, H0187, H0202, H0262, H0346, H0371, H0523, H0526, H0932, H0948,
-H0992, H1026, H1364, H1392, H1418
+H0021, H0066, H0226, H0234, H0272, H0485, H0855, H1009, H1035, H1089,
+H1220, H1259, H1260, H1289, H1413
 </td>
 </tr>
 <tr>
@@ -288,8 +288,8 @@ H0992, H1026, H1364, H1392, H1418
 Joel Benjamin Perez Garcia
 </td>
 <td style="text-align:left;">
-H0105, H0141, H0374, H0618, H0651, H0670, H0991, H0996, H1151, H1155,
-H1183, H1234, H1267, H1429, H1453
+H0013, H0040, H0078, H0236, H0293, H0339, H0447, H0448, H0469, H0631,
+H0935, H0994, H1102, H1145, H1187
 </td>
 </tr>
 <tr>
@@ -297,8 +297,8 @@ H1183, H1234, H1267, H1429, H1453
 José Ramón Martínez Batlle
 </td>
 <td style="text-align:left;">
-H0137, H0308, H0317, H0380, H0429, H0567, H0617, H1097, H1138, H1145,
-H1173, H1184, H1221, H1286, H1462
+H0095, H0183, H0240, H0331, H0386, H0410, H0412, H0425, H0460, H0581,
+H0726, H0801, H1037, H1073, H1480
 </td>
 </tr>
 <tr>
@@ -306,8 +306,8 @@ H1173, H1184, H1221, H1286, H1462
 Manuel Enrique Ure?a Reyes
 </td>
 <td style="text-align:left;">
-H0074, H0096, H0110, H0269, H0365, H0381, H0519, H0564, H0814, H0896,
-H1170, H1268, H1293, H1388, H1422
+H0018, H0173, H0178, H0341, H0372, H0450, H0806, H0888, H0953, H0975,
+H1091, H1180, H1293, H1380, H1385
 </td>
 </tr>
 <tr>
@@ -315,8 +315,8 @@ H1170, H1268, H1293, H1388, H1422
 Miguel Landestoy Tejeda
 </td>
 <td style="text-align:left;">
-H0069, H0076, H0123, H0218, H0253, H0459, H0587, H0674, H0719, H0946,
-H1057, H1263, H1337, H1425, H1468
+H0014, H0220, H0340, H0366, H0404, H0418, H0440, H0595, H0597, H0785,
+H1011, H1133, H1168, H1218, H1322
 </td>
 </tr>
 <tr>
@@ -324,8 +324,8 @@ H1057, H1263, H1337, H1425, H1468
 Ramona Geraldo Muñoz
 </td>
 <td style="text-align:left;">
-H0023, H0246, H0252, H0303, H0359, H0488, H0573, H0595, H0697, H0912,
-H0947, H1188, H1248, H1308, H1397
+H0036, H0191, H0258, H0282, H0367, H0540, H0879, H0881, H0895, H0974,
+H1044, H1135, H1173, H1254, H1257
 </td>
 </tr>
 <tr>
@@ -333,8 +333,8 @@ H0947, H1188, H1248, H1308, H1397
 Saderis Carmona Marte
 </td>
 <td style="text-align:left;">
-H0030, H0037, H0097, H0249, H0402, H0408, H0475, H0550, H0787, H0829,
-H1178, H1254, H1294, H1437, H1445
+H0116, H0290, H0487, H0549, H0764, H0779, H0798, H0852, H1087, H1140,
+H1141, H1189, H1242, H1320, H1342
 </td>
 </tr>
 <tr>
@@ -342,8 +342,8 @@ H1178, H1254, H1294, H1437, H1445
 Scarlin Adames Lantigua
 </td>
 <td style="text-align:left;">
-H0017, H0146, H0156, H0157, H0338, H0345, H0463, H0599, H0693, H0716,
-H0801, H0826, H0941, H1017, H1441
+H0076, H0160, H0254, H0534, H0605, H0675, H0812, H0912, H1177, H1279,
+H1280, H1363, H1401, H1407, H1458
 </td>
 </tr>
 <tr>
@@ -351,8 +351,8 @@ H0801, H0826, H0941, H1017, H1441
 Unifer Tavarez Ferreras
 </td>
 <td style="text-align:left;">
-H0035, H0050, H0063, H0114, H0212, H0267, H0384, H0575, H0583, H0668,
-H0940, H0983, H1031, H1322, H1334
+H0108, H0225, H0380, H0599, H0612, H0625, H0647, H0682, H0782, H0847,
+H0993, H1069, H1080, H1290, H1406
 </td>
 </tr>
 <tr>
@@ -360,8 +360,8 @@ H0940, H0983, H1031, H1322, H1334
 Valeria Novas Perez
 </td>
 <td style="text-align:left;">
-H0018, H0214, H0273, H0367, H0415, H0433, H0470, H0709, H0712, H0792,
-H0880, H1117, H1157, H1180, H1464
+H0028, H0175, H0202, H0310, H0575, H0646, H0707, H0840, H0930, H0942,
+H1185, H1274, H1351, H1352, H1421
 </td>
 </tr>
 <tr>
@@ -369,8 +369,8 @@ H0880, H1117, H1157, H1180, H1464
 Yenny Mabel Santana
 </td>
 <td style="text-align:left;">
-H0144, H0194, H0228, H0284, H0484, H0666, H0683, H0773, H0855, H0929,
-H0993, H0995, H1075, H1122, H1458
+H0010, H0064, H0281, H0459, H0542, H0655, H0692, H0714, H0727, H0811,
+H0969, H1021, H1050, H1130, H1461
 </td>
 </tr>
 </tbody>
@@ -541,6 +541,28 @@ refrescarlo nuevamente; asegúrate de seguir estas recomendaciones.
 > bibliográficas, porque se va equivocar.
 
 ## Criterios de evaluación y escala de valoración
+
+| **Criterio de Evaluación**                                          | **Nivel 1 (En desarrollo)**                                                                                                    | **Nivel 2 (Aceptable)**                                                                          | **Nivel 3 (Bueno)**                                                                      | **Nivel 4 (Excelente)**                                                         |
+|---------------------------------------------------------------------|--------------------------------------------------------------------------------------------------------------------------------|--------------------------------------------------------------------------------------------------|------------------------------------------------------------------------------------------|---------------------------------------------------------------------------------|
+| **Colecta de Muestras**                                             | Ha colectado menos de 10 muestras o ha cometido errores graves en la colecta (e.g. colectar fuera de los hexágonos asignados). | Ha colectado entre 10 y 12 muestras siguiendo el protocolo, pero con algunos errores menores.    | Ha colectado entre 13 y 14 muestras correctamente y siguiendo el protocolo.              | Ha colectado 15 muestras correctamente y siguiendo rigurosamente el protocolo.  |
+| **Registro de Datos en Plataforma ODK**                             | Ha registrado menos de 10 muestras o ha cometido errores graves en el registro.                                                | Ha registrado entre 10 y 12 muestras siguiendo el protocolo, pero con algunos errores menores.   | Ha registrado entre 13 y 14 muestras correctamente y siguiendo el protocolo.             | Ha registrado 15 muestras correctamente y siguiendo rigurosamente el protocolo. |
+| **Redacción del Documento “Diseño de Muestreo y Colecta de Datos”** | Documento con faltas de ortografía, estructura poco clara, o falta de detalle en la metodología.                               | Documento bien estructurado, pero con insuficiente detalle en la metodología o pequeños errores. | Documento bien redactado con detalles metodológicos adecuados y pocos errores.           | Documento impecable, bien estructurado, detallado y sin errores.                |
+| **Uso de Citas y Referencias**                                      | No ha incluido referencias o las citas están incorrectamente formateadas.                                                      | Ha incluido algunas referencias relevantes, pero con errores en el formato o en la cita.         | Ha citado correctamente la mayoría de las referencias relevantes.                        | Todas las referencias relevantes están correctamente citadas y formateadas.     |
+| **Aplicación de Estilos y Formato**                                 | No ha aplicado estilos o el formato es inconsistente a lo largo del documento.                                                 | Ha aplicado estilos en la mayoría del documento, pero hay inconsistencias o errores.             | Ha aplicado correctamente estilos en casi todo el documento con mínimas inconsistencias. | Ha aplicado estilos y formato de manera impecable en todo el documento.         |
+
+**Notas**:
+
+- Es fundamental seguir el protocolo de colecta y registro para
+  garantizar la validez de los datos.
+
+- La redacción y estructura del documento son esenciales para entender y
+  replicar la metodología empleada.
+
+- Las referencias y citas son cruciales para respaldar la metodología y
+  dar crédito a las fuentes originales.
+
+- La aplicación adecuada de estilos y formato mejora la legibilidad y
+  presentación del documento.
 
 ## Referencias
 

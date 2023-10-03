@@ -195,7 +195,23 @@ Finalmente, transcribo el recuadro sobre el tipo de voz a usar para refrescarlo 
 ## Criterios de evaluación y escala de valoración
 
 
+| **Criterio de Evaluación** | **Nivel 1 (En desarrollo)** | **Nivel 2 (Aceptable)** | **Nivel 3 (Bueno)** | **Nivel 4 (Excelente)** |
+|---------------------------|--------------------------|-------------------------|----------------------|-------------------------|
+| **Colecta de Muestras**   | Ha colectado menos de 10 muestras o ha cometido errores graves en la colecta (e.g. colectar fuera de los hexágonos asignados). | Ha colectado entre 10 y 12 muestras siguiendo el protocolo, pero con algunos errores menores. | Ha colectado entre 13 y 14 muestras correctamente y siguiendo el protocolo. | Ha colectado 15 muestras correctamente y siguiendo rigurosamente el protocolo. |
+| **Registro de Datos en Plataforma ODK** | Ha registrado menos de 10 muestras o ha cometido errores graves en el registro. | Ha registrado entre 10 y 12 muestras siguiendo el protocolo, pero con algunos errores menores. | Ha registrado entre 13 y 14 muestras correctamente y siguiendo el protocolo. | Ha registrado 15 muestras correctamente y siguiendo rigurosamente el protocolo. |
+| **Redacción del Documento "Diseño de Muestreo y Colecta de Datos"** | Documento con faltas de ortografía, estructura poco clara, o falta de detalle en la metodología. | Documento bien estructurado, pero con insuficiente detalle en la metodología o pequeños errores. | Documento bien redactado con detalles metodológicos adecuados y pocos errores. | Documento impecable, bien estructurado, detallado y sin errores. |
+| **Uso de Citas y Referencias** | No ha incluido referencias o las citas están incorrectamente formateadas. | Ha incluido algunas referencias relevantes, pero con errores en el formato o en la cita. | Ha citado correctamente la mayoría de las referencias relevantes. | Todas las referencias relevantes están correctamente citadas y formateadas. |
+| **Aplicación de Estilos y Formato** | No ha aplicado estilos o el formato es inconsistente a lo largo del documento. | Ha aplicado estilos en la mayoría del documento, pero hay inconsistencias o errores. | Ha aplicado correctamente estilos en casi todo el documento con mínimas inconsistencias. | Ha aplicado estilos y formato de manera impecable en todo el documento. |
 
+**Notas**:
+
+- Es fundamental seguir el protocolo de colecta y registro para garantizar la validez de los datos.
+
+- La redacción y estructura del documento son esenciales para entender y replicar la metodología empleada.
+
+- Las referencias y citas son cruciales para respaldar la metodología y dar crédito a las fuentes originales.
+
+- La aplicación adecuada de estilos y formato mejora la legibilidad y presentación del documento.
 
 
 ## Referencias
