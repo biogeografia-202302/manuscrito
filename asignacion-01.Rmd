@@ -116,6 +116,25 @@ asignaciones %>%
   estilo_kable()
 ```
 
+```{r, include=F, echo=F}
+# Función para limpiar y transformar el texto
+clean_text <- function(text) {
+  text %>%
+    tolower() %>%
+    stri_trans_general("Latin-ASCII") %>%
+    gsub("[[:punct:]]", "", .) %>%
+    gsub(" ", "", .)
+}
+
+# Unir columnas, limpiar y transformar
+df <- df %>%
+  mutate(full_name = paste(Nombre, Apellido),
+         clean_full_name = clean_text(full_name)) %>%
+  select(clean_full_name)
+
+```
+
+
 ### ¿Qué llevar?
 
 **Materiales necesarios para la colecta**
