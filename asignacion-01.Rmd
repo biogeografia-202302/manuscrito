@@ -25,6 +25,7 @@ options(digits = 3)
 options(knitr.duplicate.label = "allow")
 library(tidyverse)
 library(sf)
+library(stringi)
 library(kableExtra)
 options(knitr.kable.NA = '')
 estilo_kable <- function(df, titulo = '', cubre_anchura = T) {
@@ -116,7 +117,9 @@ asignaciones %>%
   estilo_kable()
 ```
 
-```{r, include=F, echo=F}
+```{r, include=F, echo=F, eval=F}
+# Para ODK
+
 # Función para limpiar y transformar el texto
 clean_text <- function(text) {
   text %>%
@@ -127,11 +130,11 @@ clean_text <- function(text) {
 }
 
 # Unir columnas, limpiar y transformar
-df <- df %>%
-  mutate(full_name = paste(Nombre, Apellido),
+nombres_para_odk <- estudiantes %>%
+  mutate(full_name = gsub('\\?', 'ñ', gsub("[[:space:]]{2,}", " ", id_estudiante)),
          clean_full_name = clean_text(full_name)) %>%
-  select(clean_full_name)
-
+  select(clean_full_name, full_name)
+nombres_para_odk %>% write_csv('odk/nombres_para_odk.csv')
 ```
 
 
