@@ -9,7 +9,8 @@ Santo Domingo, República Dominicana
 
 > Valor de la práctica: 30 puntos.
 
-> Fecha límite de entrega: 15 de octubre, 23:59 horas.
+> ¡ACTUALIZACIÓN! Plazo de entrega extendido: 20 de octubre, 23:59
+> horas.
 
 > Para el caso de documentos, entrega tu archivo vía correo electrónico
 > en formato nativo. En el caso de usar software de interfaz gráfica,
@@ -57,16 +58,16 @@ redactes la primera de dichas subsecciones, “Diseño de muestreo y
 colecta de datos de campo”, y que colectes tus muestras**. Por lo tanto,
 serán dos los entregables:
 
--   Tus muestras de hormigas, colectadas y registradas en plataforma en
-    línea (ver detalles más abajo). Todavía **no** identificarás
-    hormigas, sólo las colectaras y registrarás.
+- Tus muestras de hormigas, colectadas y registradas en plataforma en
+  línea (ver detalles más abajo). Todavía **no** identificarás hormigas,
+  sólo las colectaras y registrarás.
 
--   Documento conteniendo la subsección “Diseño de muestreo y colecta de
-    datos de campo”. Esta subsección la entregarás en esta asignación, y
-    la reservarás para incorporarla, más adelante, en la sección
-    “Metodología” de tu manuscrito. Podrás mejorarla en el proceso antes
-    de entregar el manuscrito, pero entregarás una primera versión para
-    valoración en esta asignación.
+- Documento conteniendo la subsección “Diseño de muestreo y colecta de
+  datos de campo”. Esta subsección la entregarás en esta asignación, y
+  la reservarás para incorporarla, más adelante, en la sección
+  “Metodología” de tu manuscrito. Podrás mejorarla en el proceso antes
+  de entregar el manuscrito, pero entregarás una primera versión para
+  valoración en esta asignación.
 
 ## Colecta tus datos de campo
 
@@ -84,64 +85,61 @@ clasificación.
 Los pasos que necesitarás dar para completar tus colectas son los
 siguientes:
 
--   Carga el diseño de hexágonos H3 en tu celular usando [este vínculo
-    de
-    GoogleMaps](https://www.google.com/maps/d/u/0/edit?mid=1ZjT9ii7O8Rp4IXdXgQOIfU93z5QI_As&usp=sharing).
+- Carga el diseño de hexágonos H3 en tu celular usando [este vínculo de
+  GoogleMaps](https://www.google.com/maps/d/u/0/edit?mid=1ZjT9ii7O8Rp4IXdXgQOIfU93z5QI_As&usp=sharing).
 
--   Identifica tus hexágonos asignados (ver la sección siguiente).
-    Márcalos o memoriza su localización.
+- Identifica tus hexágonos asignados (ver la sección siguiente).
+  Márcalos o memoriza su localización.
 
--   Elige un día para realizar las colectas (un día completo será
-    suficiente). Comienza lo más temprano que puedas.
+- Elige un día para realizar las colectas (un día completo será
+  suficiente). Comienza lo más temprano que puedas.
 
--   El día elegido, realiza las colectas siguiendo estos pasos:
+- El día elegido, realiza las colectas siguiendo estos pasos:
 
-    -   Llega al primer hexágono aisgnado usando el [mapa
-        facilitado](https://www.google.com/maps/d/u/0/edit?mid=1ZjT9ii7O8Rp4IXdXgQOIfU93z5QI_As&usp=sharing).
+  - Llega al primer hexágono aisgnado usando el [mapa
+    facilitado](https://www.google.com/maps/d/u/0/edit?mid=1ZjT9ii7O8Rp4IXdXgQOIfU93z5QI_As&usp=sharing).
 
-    -   Identifica el perímetro del hexágono asignado, para que no
-        colectes fuera de éste.
+  - Identifica el perímetro del hexágono asignado, para que no colectes
+    fuera de éste.
 
-    -   Abre ODK Collect o GIC Collect y llena un formulario nuevo de
-        ODK “Biogeografia-202302”. Completa los datos que te pide en la
-        primera página (coordenadas del centroide, foto, etc.). Guarda
-        el formulario presionando el icono del *diskette*, pero déjalo
-        abierto, no lo cierres para que puedas volver a él más tarde.
-        Este formulario será usado a lo largo de todo el hexágono, por
-        eso lo dejarás abierto, y sólo lo cerrarás cuando hayas
-        terminado el hexágono íntegramente.
+  - Abre ODK Collect o GIC Collect y llena un formulario nuevo de ODK
+    “Biogeografia-202302”. Completa los datos que te pide en la primera
+    página (coordenadas del centroide, foto, etc.). Guarda el formulario
+    presionando el icono del *diskette*, pero déjalo abierto, no lo
+    cierres para que puedas volver a él más tarde. Este formulario será
+    usado a lo largo de todo el hexágono, por eso lo dejarás abierto, y
+    sólo lo cerrarás cuando hayas terminado el hexágono íntegramente.
 
-    -   Colecta tantas hormigas como puedas, tanto en suelo como en
-        corteza de troncos, paredes e infraestructuras. Para ello, abre
-        el frasco, humedece el pincel en alcohol (mantén el frasco
-        abierto mientras colectas, lo cual hará que se evapore algo de
-        alcohol, pero no te preocupes, no se evaporará todo), moja la
-        hormiga a colectar para aturdirla, atrápala con el pincel y
-        llévala al frasco. Repite este procedimiento, moviéndote en el
-        hexágono (no te “claves” en un único lugar) sin salir de él por
-        **al menos 20 minutos, máximo 30 minutos**. Recuerda colectar no
-        sólo en suelo, también en troncos y paredes.
+  - Colecta tantas hormigas como puedas, tanto en suelo como en corteza
+    de troncos, paredes e infraestructuras. Para ello, abre el frasco,
+    humedece el pincel en alcohol (mantén el frasco abierto mientras
+    colectas, lo cual hará que se evapore algo de alcohol, pero no te
+    preocupes, no se evaporará todo), moja la hormiga a colectar para
+    aturdirla, atrápala con el pincel y llévala al frasco. Repite este
+    procedimiento, moviéndote en el hexágono (no te “claves” en un único
+    lugar) sin salir de él por **al menos 20 minutos, máximo 30
+    minutos**. Recuerda colectar no sólo en suelo, también en troncos y
+    paredes.
 
-    -   Cuando haya pasado el tiempo, podrás cerrar el formulario. Para
-        ello, presiona “Siguiente” y rellena la última pregunta del
-        formulario sobre observaciones, si aplica. Si tienes alguna que
-        añadir que no hayas podido rellenar en los campos cerrados del
-        formulario, este es el momento. Si no tienes nada que añadir,
-        presiona siguiente y guarda tu formulario. Puedes marcarlo como
-        finalizado y enviarlo si lo deseas. También puede desmarcar la
-        casilla de “Finalizado”, si tienes previsto revisarlo más
-        adelante; pero no olvides subir tu formulario al servidor tan
-        pronto como puedas. Presiona guardar y el formulario se cerrará.
+  - Cuando haya pasado el tiempo, podrás cerrar el formulario. Para
+    ello, presiona “Siguiente” y rellena la última pregunta del
+    formulario sobre observaciones, si aplica. Si tienes alguna que
+    añadir que no hayas podido rellenar en los campos cerrados del
+    formulario, este es el momento. Si no tienes nada que añadir,
+    presiona siguiente y guarda tu formulario. Puedes marcarlo como
+    finalizado y enviarlo si lo deseas. También puede desmarcar la
+    casilla de “Finalizado”, si tienes previsto revisarlo más adelante;
+    pero no olvides subir tu formulario al servidor tan pronto como
+    puedas. Presiona guardar y el formulario se cerrará.
 
-    -   Inserta una etiqueta en el frasco (lápiz y papel vegetal). Lo
-        mínimo que deberías incluir es: código del hexágono, tus nombres
-        y apellidos, fecha. Si puedes, añade coordenadas del centroide
-        del hexágono en grados y grados decimales
-        (e.g. 18.23424![^\circ](https://latex.codecogs.com/png.image?%5Cdpi%7B110%7D&space;%5Cbg_white&space;%5E%5Ccirc "^\circ"),
-        -71.82321![^\circ](https://latex.codecogs.com/png.image?%5Cdpi%7B110%7D&space;%5Cbg_white&space;%5E%5Ccirc "^\circ")).
+  - Inserta una etiqueta en el frasco (lápiz y papel vegetal). Lo mínimo
+    que deberías incluir es: código del hexágono, tus nombres y
+    apellidos, fecha. Si puedes, añade coordenadas del centroide del
+    hexágono en grados y grados decimales (e.g. 18.23424$^\circ$,
+    -71.82321$^\circ$).
 
-    -   Repite el procedimiento anterior otras 14 veces, hasta que
-        obtengas una muestra total de 15 hexágonos.
+  - Repite el procedimiento anterior otras 14 veces, hasta que obtengas
+    una muestra total de 15 hexágonos.
 
 ### Hexágonos asignados
 
@@ -152,7 +150,7 @@ hexagonos <- st_read('data/h3-res-12-no-edificios-3-grupos.gpkg')
 ```
 
     ## Reading layer `h3-res-12-no-edificios-3-grupos' from data source 
-    ##   `/home/jr/Documentos/clases_UASD/202302/repo-gh/geo131/manuscrito/data/h3-res-12-no-edificios-3-grupos.gpkg' 
+    ##   `/home/jose/Documentos/clases_UASD/202302/geo131/repo-gh/manuscrito/data/h3-res-12-no-edificios-3-grupos.gpkg' 
     ##   using driver `GPKG'
     ## Simple feature collection with 1490 features and 7 fields
     ## Geometry type: POLYGON
@@ -459,62 +457,60 @@ H0497, H0557, H0795, H1240, H1368
 
 **Materiales necesarios para la colecta**
 
--   Diecisiete envases de plástico (dos de respaldo). Puedes usar viales
-    de 2 ml (se adquieren en tiendas especializadas normalmente) o
-    envases de toma de muestras de farmacia. Los viales son
+- Diecisiete envases de plástico (dos de respaldo). Puedes usar viales
+  de 2 ml (se adquieren en tiendas especializadas normalmente) o envases
+  de toma de muestras de farmacia. Los viales son
 
--   Un lápiz de carbón.
+- Un lápiz de carbón.
 
--   Papel vegetal en cantidad suficiente para generar 15 etiquetas. Las
-    etiquetas serán lo suficientemente pequeñas para que quepan dentro
-    del envase, y lo suficientemente grandes para colocar la siguiente
-    información: código del hexágono, tus nombres y apellidos, fecha. Si
-    puedes, añade coordenadas de cualquier punto dentro del hexágono en
-    grados y grados decimales
-    (e.g. 18.23424![^\circ](https://latex.codecogs.com/png.image?%5Cdpi%7B110%7D&space;%5Cbg_white&space;%5E%5Ccirc "^\circ"),
-    -71.82321![^\circ](https://latex.codecogs.com/png.image?%5Cdpi%7B110%7D&space;%5Cbg_white&space;%5E%5Ccirc "^\circ")).
+- Papel vegetal en cantidad suficiente para generar 15 etiquetas. Las
+  etiquetas serán lo suficientemente pequeñas para que quepan dentro del
+  envase, y lo suficientemente grandes para colocar la siguiente
+  información: código del hexágono, tus nombres y apellidos, fecha. Si
+  puedes, añade coordenadas de cualquier punto dentro del hexágono en
+  grados y grados decimales (e.g. 18.23424$^\circ$, -71.82321$^\circ$).
 
--   Alcohol isopropílico. Este alcohol destruye (con el tiempo) las
-    muestras, pero las conserva bien si sólo pasan unos pocos días. El
-    alcohol etílico sería la opción idónea, pero está muy caro y debemos
-    usar isopropílico como alternativa.
+- Alcohol isopropílico. Este alcohol destruye (con el tiempo) las
+  muestras, pero las conserva bien si sólo pasan unos pocos días. El
+  alcohol etílico sería la opción idónea, pero está muy caro y debemos
+  usar isopropílico como alternativa.
 
--   Pincel, el cual humedecerás para atrapar las hormigas. La única
-    condición es que sea de una anchura menor a la del frasco, para que
-    puedes entrarlo y sacarlo del mismo con facilidad.
+- Pincel, el cual humedecerás para atrapar las hormigas. La única
+  condición es que sea de una anchura menor a la del frasco, para que
+  puedes entrarlo y sacarlo del mismo con facilidad.
 
--   **Celular**
+- **Celular**
 
-    -   Android. Descargar la aplicación [ODK
-        Collect](https://play.google.com/store/apps/details?id=org.odk.collect.android)
-        desde el Play Store. Recomiendo usar Android en lugar de iPhone.
+  - Android. Descargar la aplicación [ODK
+    Collect](https://play.google.com/store/apps/details?id=org.odk.collect.android)
+    desde el Play Store. Recomiendo usar Android en lugar de iPhone.
 
-    -   iPhone. Descargar GIC Collect. No he probado esta aplicación,
-        por lo que es importante que realices tus propias pruebas (ver
-        punto siguiente)
+  - iPhone. Descargar GIC Collect. No he probado esta aplicación, por lo
+    que es importante que realices tus propias pruebas (ver punto
+    siguiente)
 
-    -   Configurar y probar. Configurar la aplicación ODK Collect o GIC
-        Collect con los detalles que daré en el aula. Descarga, desde mi
-        servidor ODK, el formulario “Biogeografia-202302” presionando
-        “Obtener formulario en blanco”. A continuación, haz una prueba
-        intentando llenar (sin enviar) un formulario nuevo, para lo cual
-        dirígite a “Llenar Nuevo Formulario”, presionar sobre el nombre
-        del formulario y comenzar a rellenar. Esta prueba te servirá
-        para conocer, a priori, el contenido que rellenarás en terreno.
-        Más detalles, en el [tutorial correspondiente]()
+  - Configurar y probar. Configurar la aplicación ODK Collect o GIC
+    Collect con los detalles que daré en el aula. Descarga, desde mi
+    servidor ODK, el formulario “Biogeografia-202302” presionando
+    “Obtener formulario en blanco”. A continuación, haz una prueba
+    intentando llenar (sin enviar) un formulario nuevo, para lo cual
+    dirígite a “Llenar Nuevo Formulario”, presionar sobre el nombre del
+    formulario y comenzar a rellenar. Esta prueba te servirá para
+    conocer, a priori, el contenido que rellenarás en terreno. Más
+    detalles, en el [tutorial correspondiente]()
 
 **Materiales personales recomendados**
 
--   **¡Mucha (pero mucha) agua potable!**
+- **¡Mucha (pero mucha) agua potable!**
 
--   **Protección contra el sol: protector solar en crema, camisa manga
-    larga, sombrero, ¡TODO es útil!**
+- **Protección contra el sol: protector solar en crema, camisa manga
+  larga, sombrero, ¡TODO es útil!**
 
--   **Comida** (llevarla puesta, es decir, lista para abrir y comer en
-    cualquier lugar y momento).
+- **Comida** (llevarla puesta, es decir, lista para abrir y comer en
+  cualquier lugar y momento).
 
--   Repelente. En el campus de la UASD no suele haber mosquitos, pero no
-    está de más llevarlo por si acaso.
+- Repelente. En el campus de la UASD no suele haber mosquitos, pero no
+  está de más llevarlo por si acaso.
 
 ## Redacta la subsección “Diseño de muestreo y colecta de datos” de la sección “Metodología” de tu manuscrito
 
@@ -540,36 +536,34 @@ usada, lo importante es que apliques lo aprendido en la práctica 2.
 
 Si vas a usar la plantilla facilitada por mí, te doy algunos consejos:
 
--   Investiga sobre qué es una plantilla. Básicamente, es un archivo en
-    el que te puedes basar para crear otros.
--   Al ser una plantilla, si la abres con “doble-click”, se creará un
-    documento basado en ella que posteriormente deberás guardar con un
-    nombre asignado por ti.
--   Puedes usarla en GoogleDocs y en LibreOffice Writer también, pero su
-    compatibilidad máxima se consigue en Microsoft Word.
--   La plantilla básicamente contiene definiciones de estilos para el
-    título principal, títulos de nivel 1 a 3, texto de cuerpo (estilo
-    “Normal”), texto de tablas, texto de pies de figuras y tablas,
-    bibliografía, y estilo de párrafo para las figuras (suena raro, pero
-    sí, las figuras “no flotantes”, que se comportan como texto, también
-    tiene definición de estilos). Faltan estilos, como los de autor,
-    viñetas, etc. Los puedes crear libremente.
--   El texto y las figuras que he colocado de ejemplo son un mero
-    relleno. Verás que puse una tabla, una figura, una ecuación, algunas
-    citas y la lista de referencias. Debes borrar todo el contenido de
-    ejemplo, pues es irrelevante para tu manuscrito.
--   No es obligatorio usar esta plantilla, sólo úsala si la ves útil. Si
-    ya dispones de un documento donde usas estilos apropiadamente,
-    puedes seguir por esa vía. Si ya tienes un documento comenzado, y
-    quieres basarte en los estilos de esta plantilla, puedes importar
-    sus estilos (los de la plantilla) a tu documento (hay tutoriales
-    sobre ello, como
-    [éste](https://www.youtube.com/watch?v=YG7FhZvR2Do)).
--   No me canso de repetirlo: consulta al tali. Es viable por correo,
-    sólo que es necesario indicar qué problema obtuviste (error, fallo
-    de funcionalidad, etc.) al intentar hacer qué cosa. Por ejemplo:
-    “*me dio error A al intentar ejecutar B, aquí dejo una captura de
-    pantalla*”.
+- Investiga sobre qué es una plantilla. Básicamente, es un archivo en el
+  que te puedes basar para crear otros.
+- Al ser una plantilla, si la abres con “doble-click”, se creará un
+  documento basado en ella que posteriormente deberás guardar con un
+  nombre asignado por ti.
+- Puedes usarla en GoogleDocs y en LibreOffice Writer también, pero su
+  compatibilidad máxima se consigue en Microsoft Word.
+- La plantilla básicamente contiene definiciones de estilos para el
+  título principal, títulos de nivel 1 a 3, texto de cuerpo (estilo
+  “Normal”), texto de tablas, texto de pies de figuras y tablas,
+  bibliografía, y estilo de párrafo para las figuras (suena raro, pero
+  sí, las figuras “no flotantes”, que se comportan como texto, también
+  tiene definición de estilos). Faltan estilos, como los de autor,
+  viñetas, etc. Los puedes crear libremente.
+- El texto y las figuras que he colocado de ejemplo son un mero relleno.
+  Verás que puse una tabla, una figura, una ecuación, algunas citas y la
+  lista de referencias. Debes borrar todo el contenido de ejemplo, pues
+  es irrelevante para tu manuscrito.
+- No es obligatorio usar esta plantilla, sólo úsala si la ves útil. Si
+  ya dispones de un documento donde usas estilos apropiadamente, puedes
+  seguir por esa vía. Si ya tienes un documento comenzado, y quieres
+  basarte en los estilos de esta plantilla, puedes importar sus estilos
+  (los de la plantilla) a tu documento (hay tutoriales sobre ello, como
+  [éste](https://www.youtube.com/watch?v=YG7FhZvR2Do)).
+- No me canso de repetirlo: consulta al tali. Es viable por correo, sólo
+  que es necesario indicar qué problema obtuviste (error, fallo de
+  funcionalidad, etc.) al intentar hacer qué cosa. Por ejemplo: “*me dio
+  error A al intentar ejecutar B, aquí dejo una captura de pantalla*”.
 
 Finalmente, transcribo el recuadro sobre el tipo de voz a usar para
 refrescarlo nuevamente; asegúrate de seguir estas recomendaciones.
@@ -583,13 +577,13 @@ refrescarlo nuevamente; asegúrate de seguir estas recomendaciones.
 >
 > **Voz activa en manuscrito científicos:**
 >
-> -   **Analicé** los datos utilizando el software R.
+> - **Analicé** los datos utilizando el software R.
 >
-> -   El experimento **mostró** que la temperatura afecta directamente
->     la tasa de reacción.
+> - El experimento **mostró** que la temperatura afecta directamente la
+>   tasa de reacción.
 >
-> -   Los investigadores **encontraron** una correlación significativa
->     entre las dos variables.
+> - Los investigadores **encontraron** una correlación significativa
+>   entre las dos variables.
 >
 > La voz activa puede hacer que la redacción parezca más directa y
 > clara, y es especialmente útil cuando el/la autor/a quiere enfatizar
@@ -598,13 +592,13 @@ refrescarlo nuevamente; asegúrate de seguir estas recomendaciones.
 >
 > **Voz pasiva en artículos científicos:**
 >
-> -   Los datos **fueron analizados** utilizando el software R.
+> - Los datos **fueron analizados** utilizando el software R.
 >
-> -   **Se observó** que la temperatura afecta directamente la tasa de
->     reacción.
+> - **Se observó** que la temperatura afecta directamente la tasa de
+>   reacción.
 >
-> -   Una correlación significativa **fue encontrada** entre las dos
->     variables.
+> - Una correlación significativa **fue encontrada** entre las dos
+>   variables.
 >
 > La voz pasiva es común en la redacción científica porque a menudo se
 > prefiere un tono más impersonal, enfocando la atención en los
@@ -635,17 +629,17 @@ refrescarlo nuevamente; asegúrate de seguir estas recomendaciones.
 
 **Notas**:
 
--   Es fundamental seguir el protocolo de colecta y registro para
-    garantizar la validez de los datos.
+- Es fundamental seguir el protocolo de colecta y registro para
+  garantizar la validez de los datos.
 
--   La redacción y estructura del documento son esenciales para entender
-    y replicar la metodología empleada.
+- La redacción y estructura del documento son esenciales para entender y
+  replicar la metodología empleada.
 
--   Las referencias y citas son cruciales para respaldar la metodología
-    y dar crédito a las fuentes originales.
+- Las referencias y citas son cruciales para respaldar la metodología y
+  dar crédito a las fuentes originales.
 
--   La aplicación adecuada de estilos y formato mejora la legibilidad y
-    presentación del documento.
+- La aplicación adecuada de estilos y formato mejora la legibilidad y
+  presentación del documento.
 
 ## Referencias
 
