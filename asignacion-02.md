@@ -9,7 +9,7 @@ Santo Domingo, República Dominicana
 
 # Asignación de manuscrito 2. Técnicas de procesamiento y analíticas (subsección de la Metodología)
 
-> Plazo de entrega: 7 de noviembre, 23:59 horas.
+> Plazo de entrega: 14 de noviembre, 23:59 horas.
 
 > Para el caso de documentos, entrega tu archivo vía correo electrónico
 > en formato nativo. En el caso de usar software de interfaz gráfica,
@@ -114,6 +114,38 @@ subsección “Técnicas de Procesamiento y Analíticas” para tu manuscrito.
 
 - Reitero, asegúrate de utilizar una voz (activa o pasiva) de manera
   consistente a lo largo de tu texto.
+
+## Algunas recomendaciones sobre redacción de manuscritos científicos
+
+A continuación, te dejo algunos enlaces a referencias que considero
+útiles, sobre cómo redactar los resultados (algunas tratan sobre
+redacción de artículos en general):
+
+- [Breves pautas, en
+  inglés](https://www.editage.com/insights/the-secret-to-writing-the-results-and-discussion-section-of-a-manuscript).
+  Puedes usar el traductor [DeepL](https://www.deepl.com/translator),
+  porque produce frases más naturales.
+
+Cinco guías, en inglés, que considero están bien elaboradas, sobre cómo
+redactar un artículo científico (consulta la sección sobre cómo redactar
+los *resultados* en cada una):
+
+- [Demystifying the Journal
+  Article](https://www.insidehighered.com/advice/2017/05/09/how-write-effective-journal-article-and-get-it-published-essay)
+
+- [How to write a scientific manuscript for
+  publication](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3626472/)
+
+- [11 steps to structuring a science paper editors will take
+  seriously](https://www.elsevier.com/connect/11-steps-to-structuring-a-science-paper-editors-will-take-seriously)
+
+- [Cómo escribir un artículo científico por primera
+  vez](https://www.sciencedirect.com/science/article/abs/pii/S1134593417300040)
+  (necesitarás usar [SciHub](https://sci-hub.se/) para descargarlo)
+
+- Una muy breve pero con consejos útiles: [Tips for writing the perfect
+  IMRAD
+  manuscript](https://www.editage.com/insights/tips-for-writing-the-perfect-imrad-manuscript)
 
 ## Criterios de evaluación y escala de valoración
 
