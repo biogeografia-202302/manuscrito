@@ -41,7 +41,7 @@ opts_chunk$set(
   message=FALSE)
 ```
 
-## Carga de paquetes
+# Carga de paquetes
 
 Son muchos los paquetes empleados en estos análisis. Puedes consultar en el ChatGPT qué hace cada uno. Considera un aspecto también importante: algunas funciones escritas por mí se cargan con `source_url` y `source`; dentro de algunas de dichas funciones, también se cargan paquetes adicionales.
 
@@ -66,6 +66,9 @@ library(SpadeR)
 library(iNEXT)
 library(GGally)
 library(vegetarian)
+library(leaflet)
+library(leaflet.extras)
+library(readxl)
 r <- 'R/'
 gh_content <- 'https://raw.githubusercontent.com/'
 gh_zonal_stats <- paste0(gh_content,
@@ -98,9 +101,23 @@ estudiantes$`Nombres y apellidos compatible Params` <- sapply(1:nrow(estudiantes
     from = "UTF-8", to = "ASCII//TRANSLIT")
 })
 odk_campo <- read_csv('odk/biogeografia_hormigas_202302/Biogeografía Hormigas 202302.csv')
+odk_campo <- odk_campo %>% rename_with(~ gsub("atributoshexagono-|coordenada-", "", .))
 odk_id <- read_csv('odk/biogeografia_hormigas_202302_identificacion/Biogeografía Hormigas 202302 IDENTIFICACION.csv')
+odk_id <- odk_id %>% rename_with(~ gsub("datoscolecta-", "", .))
 odk_campo_form_usuario <- read_csv('odk/biogeografia_hormigas_202302/Biogeografía Hormigas 202302_core_extraido_postgres.csv')
+odk_campo_form_usuario$`_CREATOR_URI_USER` <- gsub(
+  '(uid:)(.*)(\\|.*)', '\\2',
+  odk_campo_form_usuario$`_CREATOR_URI_USER`)
+odk_campo_form_usuario <- odk_campo_form_usuario %>%
+  rename(KEY = `_URI`, usuario_ODK = `_CREATOR_URI_USER`,
+         dia_de_remision = `_SUBMISSION_DATE`)
 odk_id_form_usuario <- read_csv('odk/biogeografia_hormigas_202302_identificacion/Biogeografía Hormigas 202302 IDENTIFICACION_extraido_postgres.csv')
+odk_id_form_usuario$`_CREATOR_URI_USER` <- gsub(
+  '(uid:)(.*)(\\|.*)', '\\2',
+  odk_id_form_usuario$`_CREATOR_URI_USER`)
+odk_id_form_usuario <- odk_id_form_usuario %>%
+  rename(KEY = `_URI`, usuario_ODK = `_CREATOR_URI_USER`,
+         dia_de_remision = `_SUBMISSION_DATE`)
 usuarios_odk <- read_csv('odk/nombres_para_odk.csv')
 estudiantes_todos_datos <- estudiantes %>%
   inner_join(usuarios_odk %>% rename(`Nombres y apellidos` = full_name) %>% select(-clean_full_name))
@@ -109,30 +126,93 @@ estudiantes_todos_datos <- estudiantes %>%
 estudiantes_han_rellenado <- sort(estudiantes_todos_datos$`Nombres y apellidos`[
   match(unique(odk_campo$`atributoshexagono-responsable`),
         estudiantes_todos_datos$`Nombres y apellidos compatible ODK`)])
-estudiantes_han_rellenado %>% kable()
+tibble(`Nombres y apellidos` = estudiantes_han_rellenado) %>% estilo_kable(
+  titulo = 'Estudiantes que han rellenado formularios de campo',
+  nombres_filas = F)
 ```
 
-## Mis formularios
+## Formularios de `r estudiantes_todos_datos$'Nombres y apellidos'[estudiantes_todos_datos$'Nombres y apellidos compatible Params'==params$estudiante]`
 
 ```{r}
-nombre_odk <- estudiantes_todos_datos[
-  estudiantes_todos_datos$`Nombres y apellidos compatible Params` == params$estudiante,
-  'odk_user', drop = T]
-mis_forms <- odk_campo_form_usuario[
-  gsub('(uid:)(.*)(\\|.*)', '\\2', odk_campo_form_usuario$`_CREATOR_URI_USER`) == nombre_odk, ]
+nombre_odk <- estudiantes_todos_datos %>% 
+  filter(`Nombres y apellidos compatible Params` == params$estudiante) %>%
+  pull(odk_user)
+mis_forms_campo <- odk_campo_form_usuario %>% 
+  filter(usuario_ODK == nombre_odk) %>% 
+  inner_join(odk_campo) %>% 
+  select(KEY, usuario_ODK, hexagono, Latitude, Longitude,
+         Altitude, Accuracy, fechahora, llovio_ultima_hora,
+         foto, responsable, otra_persona, observaciones_finales)
+mis_forms_id <- odk_id_form_usuario %>% 
+  filter(usuario_ODK == nombre_odk) %>% 
+  inner_join(odk_id) %>% 
+  select(-SubmissionDate, -`meta-instanceID`)
 ```
+
+## Mapa
 
 ```{r}
-mis_forms_campo <- odk_campo[odk_campo$KEY %in% mis_forms$`_URI`, ]
+mis_forms_campo_sf <- mis_forms_campo %>% st_as_sf(coords = c('Longitude', 'Latitude'))
+leaflet(mis_forms_campo_sf) %>%
+  addCircleMarkers(
+    radius = 8, popup = ~ paste0(hexagono), stroke = T,
+    weight = 1, fillColor = 'white', color = 'black', fillOpacity = 1,
+    label = ~ hexagono,
+    labelOptions = labelOptions(
+      noHide = TRUE, direction = 'auto', offset = c(10, 0), textOnly = T,
+      style = list('color' = 'black', 'font-weight' = 'bold',
+                   'font-size' = '14px'))) %>%
+  addTiles(group = 'OSM') %>%
+  addProviderTiles("Esri.NatGeoWorldMap", group="ESRI Mapa") %>%
+  addProviderTiles("Esri.WorldImagery", group="ESRI Imagen") %>%
+  addProviderTiles("CartoDB.Positron", group= "CartoDB") %>%
+  addLayersControl(
+    baseGroups = c("CartoDB", "ESRI Imagen", "OSM", "ESRI Mapa"),
+    position = 'bottomright',
+    options = layersControlOptions(collapsed = FALSE)) %>% 
+  addFullscreenControl()
 ```
 
+## Fotos
+
+```{r echo=FALSE, results='asis'}
+# Supongamos que 'rutas_imagenes' es tu vector de rutas de imágenes
+rutas_imagenes <- paste0('odk/biogeografia_hormigas_202302/', mis_forms_campo$foto)
+
+# Bucle para insertar cada imagen
+tryCatch(
+  expr = for(ruta in rutas_imagenes) {
+    cat(paste0("![", gsub('odk.*media/', '', ruta), "](", ruta, ")\n\n"))},
+  error = function(e) e)
+```
+
+```{r, message=F, warning=F, include=F, echo=F}
+knitr::knit_exit()
+```
 
 ## Generar matriz de comunidad y ambiental, prepararlas para cargarlas
-
 
 # Análisis exploratorio de datos (AED)
 
 ## Cargar la matriz de comunidad
+
+```{r, message=F, warning=F}
+spp_odk <- read_excel(
+  path = 'odk/biogeografia_hormigas_202302_identificacion.xlsx', sheet = 2, verbose = F) %>% 
+  select(list_name, name, label) %>% 
+  filter(list_name == 'especieid')
+mis_forms_id %>%
+  select(codigo_hexagono_elegido, codigo_hexagono_otro,
+         especieid, especieidotra) %>% 
+  mutate(hexagono = coalesce(codigo_hexagono_elegido, codigo_hexagono_otro)) %>% 
+  select(-matches('codigo_hexagono_.*')) %>% 
+  mutate(especieid_todas = case_when(
+    !is.na(especieidotra) ~ paste(especieid, especieidotra, sep = " "),
+    TRUE ~ as.character(especieid)
+  ))
+
+```
+
 
 ```{r}
 mc <- read.csv(paste0(fuentes_practica, 'matriz-comunidad-', params$estudiante, '.csv'))[,-1]
