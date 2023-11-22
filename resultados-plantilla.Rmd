@@ -20,6 +20,8 @@ editor_options:
 bibliography: references.bib
 params:
   estudiante: "Ramona-Geraldo-Munoz"
+  # estudiante: "Angel-Rolando-Gomez-Gonzalez"
+  # estudiante: "Manuel-Enrique-Urena-Reyes"
 ---
 
 <style>
@@ -79,16 +81,17 @@ repo_sem202302 <- 'biogeografia-202302/practicas/main/'
 devtools::source_url(paste0(gh_content, repo_analisis, '/biodata/funciones.R'))
 devtools::source_url(paste0(gh_content, repo_sem202202, 'train.R'))
 devtools::source_url(paste0(gh_content, repo_sem202202, 'funciones.R'))
-fuentes_practica <- 'fuentes/practica-04/'
+fuentes_manuscrito <- 'fuentes/manuscrito/'
 source(paste0(gh_content, repo_sem202302, r, 'funciones.R'))
 umbral_alfa <- 0.05
 ```
 
 # Leer y preparar datos
 
-<!-- Listas estudiantes -->
+<!-- Formularios de ODK, listas estudiantes -->
 
-```{r, echo=F, include=F, warning=F, message=F}
+```{r, echo=F, warning=F, message=F}
+# Cargar formularios de ODK y listas de estudiantes
 estudiantes <- read_csv(paste0(gh_content, repo_sem202302, "fuentes/practica-04/lista-de-estudiantes.csv"))
 estudiantes$`Nombres y apellidos compatible ODK` <- sapply(1:nrow(estudiantes), function(x) {
   tolower(iconv(
@@ -120,25 +123,29 @@ odk_id_form_usuario <- odk_id_form_usuario %>%
          dia_de_remision = `_SUBMISSION_DATE`)
 usuarios_odk <- read_csv('odk/nombres_para_odk.csv')
 estudiantes_todos_datos <- estudiantes %>%
-  inner_join(usuarios_odk %>% rename(`Nombres y apellidos` = full_name) %>% select(-clean_full_name))
+  inner_join(usuarios_odk %>% rename(`Nombres y apellidos` = full_name) %>%
+               select(-clean_full_name))
+# write_csv(
+#   estudiantes_todos_datos,
+#   paste0(fuentes_manuscrito, 'estudiantes_todos_los_datos.csv'))
 
-# Formularios de campo rellenados por
+# Formularios de campo rellenados por:
 estudiantes_han_rellenado <- sort(estudiantes_todos_datos$`Nombres y apellidos`[
-  match(unique(odk_campo$`atributoshexagono-responsable`),
+  match(unique(odk_campo$responsable),
         estudiantes_todos_datos$`Nombres y apellidos compatible ODK`)])
-tibble(`Nombres y apellidos` = estudiantes_han_rellenado) %>% estilo_kable(
-  titulo = 'Estudiantes que han rellenado formularios de campo',
-  nombres_filas = F)
+# tibble(`Nombres y apellidos` = estudiantes_han_rellenado) %>% estilo_kable(
+#   titulo = 'Estudiantes que han rellenado formularios de campo',
+#   nombres_filas = F)
 ```
 
 ## Formularios de `r estudiantes_todos_datos$'Nombres y apellidos'[estudiantes_todos_datos$'Nombres y apellidos compatible Params'==params$estudiante]`
 
 ```{r}
 nombre_odk <- estudiantes_todos_datos %>% 
-  filter(`Nombres y apellidos compatible Params` == params$estudiante) %>%
+  filter(grepl(params$estudiante, `Nombres y apellidos compatible Params`)) %>%
   pull(odk_user)
 mis_forms_campo <- odk_campo_form_usuario %>% 
-  filter(usuario_ODK == nombre_odk) %>% 
+  filter(grepl(nombre_odk, usuario_ODK)) %>% 
   inner_join(odk_campo) %>% 
   select(KEY, usuario_ODK, hexagono, Latitude, Longitude,
          Altitude, Accuracy, fechahora, llovio_ultima_hora,
@@ -177,17 +184,13 @@ leaflet(mis_forms_campo_sf) %>%
 
 ```{r echo=FALSE, results='asis'}
 # Supongamos que 'rutas_imagenes' es tu vector de rutas de imágenes
-rutas_imagenes <- paste0('odk/biogeografia_hormigas_202302/', mis_forms_campo$foto)
+rutas_imagenes <- paste0('odk/biogeografia_hormigas_202302/', na.omit(mis_forms_campo$foto))
 
 # Bucle para insertar cada imagen
 tryCatch(
   expr = for(ruta in rutas_imagenes) {
     cat(paste0("![", gsub('odk.*media/', '', ruta), "](", ruta, ")\n\n"))},
   error = function(e) e)
-```
-
-```{r, message=F, warning=F, include=F, echo=F}
-knitr::knit_exit()
 ```
 
 ## Generar matriz de comunidad y ambiental, prepararlas para cargarlas
@@ -198,24 +201,36 @@ knitr::knit_exit()
 
 ```{r, message=F, warning=F}
 spp_odk <- read_excel(
-  path = 'odk/biogeografia_hormigas_202302_identificacion.xlsx', sheet = 2, verbose = F) %>% 
+  path = 'odk/biogeografia_hormigas_202302_identificacion.xlsx', sheet = 2) %>% 
   select(list_name, name, label) %>% 
   filter(list_name == 'especieid')
-mis_forms_id %>%
+mc <- mis_forms_id %>%
   select(codigo_hexagono_elegido, codigo_hexagono_otro,
          especieid, especieidotra) %>% 
   mutate(hexagono = coalesce(codigo_hexagono_elegido, codigo_hexagono_otro)) %>% 
   select(-matches('codigo_hexagono_.*')) %>% 
   mutate(especieid_todas = case_when(
     !is.na(especieidotra) ~ paste(especieid, especieidotra, sep = " "),
-    TRUE ~ as.character(especieid)
-  ))
-
+    TRUE ~ as.character(especieid))) %>% 
+  separate_rows(especieid) %>%
+  distinct() %>% 
+  left_join(spp_odk, by = c("especieid" = "name")) %>% 
+  select(hexagono, especie = label) %>% 
+  filter(especie != 'reina(s)') %>%
+  mutate(presencia = 1) %>% 
+  arrange(especie) %>% 
+  pivot_wider(names_from = especie, values_from = presencia, values_fill = 0) %>% 
+  arrange(hexagono)
+write.csv(mc,
+          paste0(fuentes_manuscrito, 'matriz-comunidad-', params$estudiante, '.csv'),
+          row.names = F)
 ```
 
 
 ```{r}
-mc <- read.csv(paste0(fuentes_practica, 'matriz-comunidad-', params$estudiante, '.csv'))[,-1]
+mc <- read.csv(
+  file = paste0(fuentes_manuscrito, 'matriz-comunidad-', params$estudiante, '.csv'),
+  row.names = 'hexagono', check.names = F)
 mc %>% estilo_kable(
   titulo = 'Matriz de comunidad',
   nombres_filas = T, alinear = 'r')
@@ -271,7 +286,13 @@ mc_t %>% estilo_kable(titulo = 'Matriz de comunidad transformada',
 ## Cargar la matriz ambiental
 
 ```{r, message=F, warning=F}
-env <- read_csv(paste0(fuentes_practica, 'matriz-ambiental-', params$estudiante, '.csv'))[, -1]
+fuente_env_sf <- st_read('data/h3-res-12-no-edificios-3-grupos.gpkg') %>%
+  rename(hexagono = indice_propio)
+env <- fuente_env_sf %>%
+  st_drop_geometry() %>% 
+  select(-index, -grupo) %>% 
+  filter(hexagono %in% rownames(mc)) %>% 
+  column_to_rownames('hexagono')
 env %>% estilo_kable(titulo = 'Matriz ambiental', nombres_filas = T, alinear = 'r')
 ```
 
@@ -445,7 +466,7 @@ grupos_seleccionados <- seleccionar_y_cortar_arbol(
   resultado_evaluacion_upgma = resultado_evaluacion_upgma,
   resultado_evaluacion_ward = resultado_evaluacion_ward)
 saveRDS(grupos_seleccionados$resultado,
-        paste0(fuentes_practica, 'grupos_seleccionados-', params$estudiante,'.RDS'))
+        paste0(fuentes_manuscrito, 'grupos_seleccionados-', params$estudiante,'.RDS'))
 ```
 
 **`r grupos_seleccionados$decision`**. El árbol resultante se muestra a continuación:
@@ -613,7 +634,7 @@ set.seed(1); mod <- my_train(
   formula = my_formula, 
   # preproceso = 'scale',
   data = env_spp,
-  num_variables = 3:4)
+  num_variables = 2)
 print_my_train(mod)
 (covar <- grep(
   pattern = '\\(Intercept\\)',
@@ -751,8 +772,8 @@ riqueza_estimaciones %>% estilo_kable(alinear = 'lrr')
 
 
 
-```{r, eval=F}
-# Bug no resuelto:
+```{r}
+# POSIBLE ERROR DE BUG NO RESUELTO. PODRÍA APARECER EL SIGUIENTE ERROR:
 # Error in if (var_mle > 0) { : valor ausente donde TRUE/FALSE es necesario
 # Varios intentos frustrados por lograr que funcione. Entiendo que el problema
 # está en el número de doubletons (la matriz no tiene), pero no logré mejorar
@@ -760,29 +781,24 @@ riqueza_estimaciones %>% estilo_kable(alinear = 'lrr')
 # en la aplicación Shiny https://chao.shinyapps.io/SpadeR/, no es la misma que 
 # la que se encuentra en GitHub ni en el CRAN, pues esa no tiene bug.
 df_spader <- data.frame(V1 = as.integer(c(nrow(mc), colSums(mc))))
-# También se puede crear con esta línea:
-# df_spader <- structure(
-#   list(V1 = c(15, 8, 9, 10, 9, 8, 9, 9, 8, 8, 6, 12, 9)),
-#   class = "data.frame", row.names = c(NA, -13L))
-df_spader
-#  V1
-#  15
-#   8
-#   9
-#  10
-#   9
-#   8
-#   9
-#   9
-#   8
-#   8
-#   6
-#  12
-#   9
-ChaoSpecies(df_spader, datatype = 'incidence_freq',
-            k = min(df_spader$V1), conf=0.95)
-# Error in if (var_mle > 0) { : valor ausente donde TRUE/FALSE es necesario
-# ENG: Error in if (var_mle > 0) { : missing value where TRUE/FALSE needed
+df_spader %>% estilo_kable(
+  titulo = 'Matriz de datos tal como la requiere el paquete SpadeR',
+  nombres_filas = T, alinear = 'r', cubre_anchura = T)
+tryCatch(
+  expr = ChaoSpecies(df_spader, datatype = 'incidence_freq',
+            k = min(df_spader$V1), conf=0.95),
+  error = function(cond) {
+      message("Se detectó un error", appendLF = TRUE)
+      message('Esta información podría ayudar a depurar: ', cond, appendLF = TRUE)
+      message('\nSaliendo...')},
+    warning = function(warn) {
+      message("Hubo una advertencia", appendLF = TRUE)
+      message('Mostrando la advertencia a continuación: ', warn, appendLF = TRUE)},
+    finally = {
+      message('Estimación de riqueza generada satisfactoriamente')})
+# Si apareciera ...
+# "Error in if (var_mle > 0) { : valor ausente donde TRUE/FALSE es necesario
+# ... entonces usar tabla básica de estimación: "riqueza_estimaciones"
 ```
 
 Graficaré la curva de acumulación de especies.
@@ -817,7 +833,7 @@ Ahora según los grupos previamente seleccionados en el análisis de agrupamient
 
 ```{r, out.width='100%', out.height='80%', dpi=150}
 grupos_seleccionados <- readRDS(paste0(
-  fuentes_practica, 'grupos_seleccionados-',
+  fuentes_manuscrito, 'grupos_seleccionados-',
   params$estudiante, '.RDS'))
 mc_grupos <- mc %>%
   mutate(g = grupos_seleccionados) %>%
