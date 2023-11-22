@@ -292,7 +292,9 @@ env <- fuente_env_sf %>%
   st_drop_geometry() %>% 
   select(-index, -grupo) %>% 
   filter(hexagono %in% rownames(mc)) %>% 
-  column_to_rownames('hexagono')
+  column_to_rownames('hexagono') %>% 
+  mutate(porc_CONS = porc_CONS + porc_EDIF) %>% 
+  select(-porc_EDIF)
 env %>% estilo_kable(titulo = 'Matriz ambiental', nombres_filas = T, alinear = 'r')
 ```
 
@@ -425,12 +427,11 @@ Lo aplicaré primero al árbol generado por el método UPGMA.
 ```{r}
 # UPGMA
 # if(interactive()) dev.new()
-cl_pvclust_upgma <-
-        pvclust(t(mc_t),
-                method.hclust = "average",
-                method.dist = "euc",
-                iseed = 99, # Resultado reproducible
-                parallel = TRUE, quiet = TRUE)
+cl_pvclust_upgma <-pvclust(t(mc_t),
+                           method.hclust = "average",
+                           method.dist = "euc",
+                           iseed = 99, # Resultado reproducible
+                           parallel = TRUE, quiet = T)
 # Añadir los valores de p
 plot(cl_pvclust_upgma, hang = -1, main = 'Método UPGMA bootstrap\n(árbol de evaluación)')
 # Añadir rectángulos a los grupos significativos
@@ -443,12 +444,11 @@ Lo aplicaré también al árbol generado por el método Ward.
 ```{r}
 # Ward
 # if(interactive()) dev.new()
-cl_pvclust_ward <-
-        pvclust(t(mc_t),
-                method.hclust = "ward.D2",
-                method.dist = "euc",
-                iseed = 99, # Resultado reproducible
-                parallel = TRUE, quiet = TRUE)
+cl_pvclust_ward <- pvclust(t(mc_t),
+                           method.hclust = "ward.D2",
+                           method.dist = "euc",
+                           iseed = 99, # Resultado reproducible
+                           parallel = TRUE, quiet = TRUE)
 # Añadir los valores de p
 plot(cl_pvclust_ward, hang = -1, main = 'Método Ward bootstrap\n(árbol de evaluación)')
 # Añadir rectángulos a los grupos significativos
@@ -773,11 +773,11 @@ riqueza_estimaciones %>% estilo_kable(alinear = 'lrr')
 
 
 ```{r}
-# POSIBLE ERROR DE BUG NO RESUELTO. PODRÍA APARECER EL SIGUIENTE ERROR:
+# POSIBLE ERROR POR BUG NO RESUELTO. PODRÍA APARECER EL SIGUIENTE ERROR:
 # Error in if (var_mle > 0) { : valor ausente donde TRUE/FALSE es necesario
-# Varios intentos frustrados por lograr que funcione. Entiendo que el problema
-# está en el número de doubletons (la matriz no tiene), pero no logré mejorar
-# la función interna SpecInciHomo para solucionarlo. La versión de SpadeR usada
+# Si te aparece dicho error, entiendo que el problema está relacionado con
+# el número de doubletons (quizá la matriz no tiene), dentro de una función
+# interna (SpecInciHomo) del paquete SpadeR. Añadir que la versión de SpadeR usada
 # en la aplicación Shiny https://chao.shinyapps.io/SpadeR/, no es la misma que 
 # la que se encuentra en GitHub ni en el CRAN, pues esa no tiene bug.
 df_spader <- data.frame(V1 = as.integer(c(nrow(mc), colSums(mc))))

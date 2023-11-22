@@ -73,7 +73,7 @@ nombres_ajustados <- est[est$odk_user %in% odk_id_users,
 
 
 
-```{r, echo=F, eval=F}
+```{r, echo=F, include=F, eval=T, message=F, warning=F}
 # Generar informes
 for (i in nombres_ajustados) {
   nombre_salida <- paste0(fuentes_manuscrito, "informe-resultados-", i, ".html")

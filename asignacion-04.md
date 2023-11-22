@@ -55,45 +55,43 @@ Santo Domingo, República Dominicana
     tablas, citas y
     referencias”](https://github.com/biogeografia-202302/practicas/blob/main/practica-02.md).
 
-    -   Si usas Microsoft Word o LibreOffice Writer, puedes buscar
-        plantillas de artículos (puedes usar las de algunas editoriales)
-        o usar [esta plantilla](data/plantilla-manuscrito.dotx) si la
-        consideras útil.
-    -   Independientemente de la plantilla o el software que elijas, lo
-        importante es que apliques lo aprendido en la práctica 2.
+    - Si usas Microsoft Word o LibreOffice Writer, puedes buscar
+      plantillas de artículos (puedes usar las de algunas editoriales) o
+      usar [esta plantilla](data/plantilla-manuscrito.dotx) si la
+      consideras útil.
+    - Independientemente de la plantilla o el software que elijas, lo
+      importante es que apliques lo aprendido en la práctica 2.
 
 Si vas a usar la plantilla facilitada por mí, te doy algunos consejos:
 
--   Investiga sobre qué es una plantilla. Básicamente, es un archivo en
-    el que te puedes basar para crear otros.
--   Al ser una plantilla, si la abres con “doble-click”, se creará un
-    documento basado en ella que posteriormente deberás guardar con un
-    nombre asignado por ti.
--   Puedes usarla en GoogleDocs y en LibreOffice Writer también, pero su
-    compatibilidad máxima se consigue en Microsoft Word.
--   La plantilla básicamente contiene definiciones de estilos para el
-    título principal, títulos de nivel 1 a 3, texto de cuerpo (estilo
-    “Normal”), texto de tablas, texto de pies de figuras y tablas,
-    bibliografía, y estilo de párrafo para las figuras (suena raro, pero
-    sí, las figuras “no flotantes”, que se comportan como texto, también
-    tiene definición de estilos). Faltan estilos, como los de autor,
-    viñetas, etc. Los puedes crear libremente.
--   El texto y las figuras que he colocado de ejemplo son un mero
-    relleno. Verás que puse una tabla, una figura, una ecuación, algunas
-    citas y la lista de referencias. Debes borrar todo el contenido de
-    ejemplo, pues es irrelevante para tu manuscrito.
--   No es obligatorio usar esta plantilla, sólo úsala si la ves útil. Si
-    ya dispones de un documento donde usas estilos apropiadamente,
-    puedes seguir por esa vía. Si ya tienes un documento comenzado, y
-    quieres basarte en los estilos de esta plantilla, puedes importar
-    sus estilos (los de la plantilla) a tu documento (hay tutoriales
-    sobre ello, como
-    [éste](https://www.youtube.com/watch?v=YG7FhZvR2Do)).
--   No me canso de repetirlo: consulta al tali. Es viable por correo,
-    sólo que es necesario indicar qué problema obtuviste (error, fallo
-    de funcionalidad, etc.) al intentar hacer qué cosa. Por ejemplo:
-    “*me dio error A al intentar ejecutar B, aquí dejo una captura de
-    pantalla*”.
+- Investiga sobre qué es una plantilla. Básicamente, es un archivo en el
+  que te puedes basar para crear otros.
+- Al ser una plantilla, si la abres con “doble-click”, se creará un
+  documento basado en ella que posteriormente deberás guardar con un
+  nombre asignado por ti.
+- Puedes usarla en GoogleDocs y en LibreOffice Writer también, pero su
+  compatibilidad máxima se consigue en Microsoft Word.
+- La plantilla básicamente contiene definiciones de estilos para el
+  título principal, títulos de nivel 1 a 3, texto de cuerpo (estilo
+  “Normal”), texto de tablas, texto de pies de figuras y tablas,
+  bibliografía, y estilo de párrafo para las figuras (suena raro, pero
+  sí, las figuras “no flotantes”, que se comportan como texto, también
+  tiene definición de estilos). Faltan estilos, como los de autor,
+  viñetas, etc. Los puedes crear libremente.
+- El texto y las figuras que he colocado de ejemplo son un mero relleno.
+  Verás que puse una tabla, una figura, una ecuación, algunas citas y la
+  lista de referencias. Debes borrar todo el contenido de ejemplo, pues
+  es irrelevante para tu manuscrito.
+- No es obligatorio usar esta plantilla, sólo úsala si la ves útil. Si
+  ya dispones de un documento donde usas estilos apropiadamente, puedes
+  seguir por esa vía. Si ya tienes un documento comenzado, y quieres
+  basarte en los estilos de esta plantilla, puedes importar sus estilos
+  (los de la plantilla) a tu documento (hay tutoriales sobre ello, como
+  [éste](https://www.youtube.com/watch?v=YG7FhZvR2Do)).
+- No me canso de repetirlo: consulta al tali. Es viable por correo, sólo
+  que es necesario indicar qué problema obtuviste (error, fallo de
+  funcionalidad, etc.) al intentar hacer qué cosa. Por ejemplo: “*me dio
+  error A al intentar ejecutar B, aquí dejo una captura de pantalla*”.
 
 Finalmente, transcribo el recuadro que ya conoces sobre el tipo de voz a
 usar para refrescarlo nuevamente; asegúrate de seguir estas
@@ -108,13 +106,13 @@ recomendaciones.
 >
 > **Voz activa en manuscrito científicos:**
 >
-> -   **Analicé** los datos utilizando el software R.
+> - **Analicé** los datos utilizando el software R.
 >
-> -   El experimento **mostró** que la temperatura afecta directamente
->     la tasa de reacción.
+> - El experimento **mostró** que la temperatura afecta directamente la
+>   tasa de reacción.
 >
-> -   Los investigadores **encontraron** una correlación significativa
->     entre las dos variables.
+> - Los investigadores **encontraron** una correlación significativa
+>   entre las dos variables.
 >
 > La voz activa puede hacer que la redacción parezca más directa y
 > clara, y es especialmente útil cuando el/la autor/a quiere enfatizar
@@ -123,13 +121,13 @@ recomendaciones.
 >
 > **Voz pasiva en artículos científicos:**
 >
-> -   Los datos **fueron analizados** utilizando el software R.
+> - Los datos **fueron analizados** utilizando el software R.
 >
-> -   **Se observó** que la temperatura afecta directamente la tasa de
->     reacción.
+> - **Se observó** que la temperatura afecta directamente la tasa de
+>   reacción.
 >
-> -   Una correlación significativa **fue encontrada** entre las dos
->     variables.
+> - Una correlación significativa **fue encontrada** entre las dos
+>   variables.
 >
 > La voz pasiva es común en la redacción científica porque a menudo se
 > prefiere un tono más impersonal, enfocando la atención en los
@@ -152,12 +150,12 @@ recomendaciones.
 
 **Notas**:
 
--   La redacción y estructura del documento son esenciales.
+- La redacción y estructura del documento son esenciales.
 
--   Las figuras y tablas son cruciales para respaldar la redacción, pero
-    no abuses de ellas.
+- Las figuras y tablas son cruciales para respaldar la redacción, pero
+  no abuses de ellas.
 
--   La aplicación adecuada de estilos y formato mejora la legibilidad y
-    presentación del documento.
+- La aplicación adecuada de estilos y formato mejora la legibilidad y
+  presentación del documento.
 
 ## Referencias
