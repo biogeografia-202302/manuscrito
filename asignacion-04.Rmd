@@ -48,7 +48,6 @@ estilo_kable <- function(df, titulo = '', cubre_anchura = T) {
 ## ¿Cómo proceder?
 
 
-
 ```{r, echo=F}
 # Cargar las bibliotecas necesarias
 library(tidyverse)

@@ -19,9 +19,12 @@ editor_options:
   chunk_output_type: console
 bibliography: references.bib
 params:
-  estudiante: "Ramona-Geraldo-Munoz"
+  estudiante:
+  # estudiante: "Ramona-Geraldo-Munoz"
   # estudiante: "Angel-Rolando-Gomez-Gonzalez"
   # estudiante: "Manuel-Enrique-Urena-Reyes"
+  # estudiante: "Adrian-Rafael-Diplan-Montas"
+  # estudiante: "Yenny-Mabel-Santana"
 ---
 
 <style>
@@ -87,6 +90,19 @@ umbral_alfa <- 0.05
 ```
 
 # Leer y preparar datos
+
+<!-- IMPORTANTE: no olvidar actualizar base de datos postgres -->
+
+```{bash, eval=F, include=F, echo=F}
+ssh ...
+psql -U USUARIO -d aggregate
+\copy "BIOGEOGRAFIAHORMIGAS202302_CORE" TO '/tmp/biog2002_core.csv' DELIMITER ',' CSV HEADER;
+\copy "BIOG2002ID_CORE" TO '/tmp/biog2002id_core.csv' DELIMITER ',' CSV HEADER;
+\q
+scp ...:/tmp/biog2002_core.csv "/home/jose/Documentos/ODK_Briefcase_exports/biogeografia_hormigas_202302/Biogeografía Hormigas 202302_core_extraido_postgres.csv"
+scp  ...:/tmp/biog2002id_core.csv "/home/jose/Documentos/ODK_Briefcase_exports/biogeografia_hormigas_202302_identificacion/Biogeografía Hormigas 202302 IDENTIFICACION_extraido_postgres.csv"
+```
+
 
 <!-- Formularios de ODK, listas estudiantes -->
 
@@ -156,10 +172,14 @@ mis_forms_id <- odk_id_form_usuario %>%
   select(-SubmissionDate, -`meta-instanceID`)
 ```
 
-## Mapa
+## Mapa de mis puntos colectados
+
+**Nota: sólo figuran los puntos con coordenadas. El total de formularios podría ser mayor al número de puntos mostrado en el mapa. Para un mapa comprensivo, ver más adelante el mapa bajo el texto "Mapa de hexágonos visitados".**
 
 ```{r}
-mis_forms_campo_sf <- mis_forms_campo %>% st_as_sf(coords = c('Longitude', 'Latitude'))
+mis_forms_campo_sf <- mis_forms_campo %>%
+  filter(!is.na(Latitude) | !is.na(Longitude)) %>% 
+  st_as_sf(coords = c('Longitude', 'Latitude'))
 leaflet(mis_forms_campo_sf) %>%
   addCircleMarkers(
     radius = 8, popup = ~ paste0(hexagono), stroke = T,
@@ -216,7 +236,7 @@ mc <- mis_forms_id %>%
   distinct() %>% 
   left_join(spp_odk, by = c("especieid" = "name")) %>% 
   select(hexagono, especie = label) %>% 
-  filter(especie != 'reina(s)') %>%
+  filter(! especie %in% c('reina(s)', 'Otra')) %>%
   mutate(presencia = 1) %>% 
   arrange(especie) %>% 
   pivot_wider(names_from = especie, values_from = presencia, values_fill = 0) %>% 
@@ -296,6 +316,33 @@ env <- fuente_env_sf %>%
   mutate(porc_CONS = porc_CONS + porc_EDIF) %>% 
   select(-porc_EDIF)
 env %>% estilo_kable(titulo = 'Matriz ambiental', nombres_filas = T, alinear = 'r')
+```
+
+Mapa de hexágonos visitados.
+
+```{r}
+env_sf <- fuente_env_sf %>% 
+  select(-index, -grupo) %>% 
+  filter(hexagono %in% rownames(mc)) %>% 
+  st_transform(4326)
+leaflet(env_sf) %>%
+  addPolygons(
+    popup = ~ paste0(hexagono), stroke = T,
+    weight = 2, fillColor = 'red', color = 'black', fillOpacity = 1,
+    label = ~ hexagono,
+    labelOptions = labelOptions(
+      noHide = TRUE, direction = 'auto', offset = c(5, 10), textOnly = T,
+      style = list('color' = 'black', 'font-weight' = 'bold',
+                   'font-size' = '14px'))) %>%
+  addTiles(group = 'OSM') %>%
+  addProviderTiles("Esri.NatGeoWorldMap", group="ESRI Mapa") %>%
+  addProviderTiles("Esri.WorldImagery", group="ESRI Imagen") %>%
+  addProviderTiles("CartoDB.Positron", group= "CartoDB") %>%
+  addLayersControl(
+    baseGroups = c("CartoDB", "ESRI Imagen", "OSM", "ESRI Mapa"),
+    position = 'bottomright',
+    options = layersControlOptions(collapsed = FALSE)) %>% 
+  addFullscreenControl()
 ```
 
 La matriz ambiental se compone de `r ncol(env)` variables de tipo numérico, conteniendo el valor de cada variable para cada uno de los `r nrow(env)` sitios. La siguiente tabla y el gráfico muestran un resumen de los estadísticos básicos de la matriz ambiental.

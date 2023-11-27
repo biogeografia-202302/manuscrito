@@ -26,9 +26,11 @@ Santo Domingo, República Dominicana
 
 | Estudiante                   | Ruta de informe                                                                                                            |
 |:-----------------------------|:---------------------------------------------------------------------------------------------------------------------------|
+| Adrian-Rafael-Diplan-Montas  | <https://biogeografia-202302.github.io/manuscrito/fuentes/manuscrito/informe-resultados-Adrian-Rafael-Diplan-Montas.html>  |
 | Angel-Rolando-Gomez-Gonzalez | <https://biogeografia-202302.github.io/manuscrito/fuentes/manuscrito/informe-resultados-Angel-Rolando-Gomez-Gonzalez.html> |
 | Manuel-Enrique-Urena-Reyes   | <https://biogeografia-202302.github.io/manuscrito/fuentes/manuscrito/informe-resultados-Manuel-Enrique-Urena-Reyes.html>   |
 | Ramona-Geraldo-Munoz         | <https://biogeografia-202302.github.io/manuscrito/fuentes/manuscrito/informe-resultados-Ramona-Geraldo-Munoz.html>         |
+| Yenny-Mabel-Santana          | <https://biogeografia-202302.github.io/manuscrito/fuentes/manuscrito/informe-resultados-Yenny-Mabel-Santana.html>          |
 
 ## Instrucciones complementarias
 
