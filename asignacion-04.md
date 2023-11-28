@@ -18,9 +18,53 @@ Santo Domingo, República Dominicana
 
 # Asignación de manuscrito 4. Resultados
 
-## ¿Qué contiene una sección de “Resultados”?
+La sección de resultados es la parte más analítica del manuscrito y, por
+supuesto, está conectada con la sección “Metodología” e “Introducción”.
+Aquí analizas tus datos y muestras lo obtenido tras aplicar los métodos,
+técnicas y herramientas, manteniéndote siempre dentro del problema que
+elegiste resolver (o que yo te animé/sugería a afrontar), sin incluir
+valoraciones ni interpretaciones. Esta sección responde a la pregunta
+¿qué?
+
+En detalle, más específicamente, una sección de “Resultados” de un
+manuscrito científico en el campo de la ecología numérica es
+fundamental, ya que presenta los hallazgos empíricos obtenidos a partir
+del análisis de datos (los informes personalizados que te enlazo abajo
+son la fuente principal en este caso). En dicha sección es donde
+detallas “los números” y patrones observados en relación con las
+hipótesis o preguntas de investigación planteadas. Esta sección debe ser
+clara y concisa, exponiendo las cifras, tendencias y relaciones
+estadísticas pero, reiterio, sin incluir interpretaciones o
+explicaciones extensas, las cuales reservarías para la discusión.
+
+En esta parte del manuscrito, es común encontrar tablas, figuras y
+gráficos que ilustran los resultados de manera visual, facilitando la
+comprensión de los datos complejos. Por ejemplo, podrías incluir
+gráficos como el de mosaicos, los de violín, el panel de gráficos de
+dispersión, que muestren las relaciones entre la matriz de comunidad y
+los factores ambientales; o también podrías mostrar agrupamientos,
+asociaciones o especies indicadoras, o modelos que expliquen patrones de
+composición de especies. En general, lo que muestres dependerá mucho de
+las preguntas/objetivos planteados, y de la técnica elegida. La
+consistencia en la presentación de los resultados es crucial, asegurando
+que los métodos estadísticos aplicados estén alineados con los objetivos
+del estudio.
+
+Para redactar esta sección, usarás tu informe personalizado (ver
+siguiente sección), y aplicarás lo practicado en la asignación [Practica
+4. Redacta “Metodología” y “Resultados” de ecología
+numérica](https://github.com/biogeografia-202302/practicas/blob/main/practica-04.md).
+
+En cuanto a la forma, deberás aplicar lo aprendido en la [Práctica 2.
+Métricas básicas de ecología numérica, reproducibilidad, redacción,
+estilos de formato, tablas, citas y
+referencias](https://github.com/biogeografia-202302/practicas/blob/main/practica-02.md).
+Más detalles al respecto en la sección siguientes.
 
 ## ¿Cómo proceder?
+
+Localiza tu informe personalizado sobre “Datos y análisis para
+resultados” en siguiente la tabla:
 
 <!-- Formularios de ODK, listas estudiantes -->
 
@@ -51,11 +95,13 @@ Santo Domingo, República Dominicana
     todo lo que no quepa allí, se debe transferir a información
     suplementaria. Asegúrate de ser claro/a y conciso/a en tu redacción.
 
-3.  **Formato:** En cuanto a la forma, redacta el texto entregable
-    aplicando lo aprendido en la [“Practica 2. Métricas básicas de
-    ecología numérica, reproducibilidad, redacción, estilos de formato,
-    tablas, citas y
+3.  **Formato:** En cuanto a la forma, tal como te comenté arriba,
+    redacta el texto entregable aplicando lo aprendido en la
+    [“Practica 2. Métricas básicas de ecología numérica,
+    reproducibilidad, redacción, estilos de formato, tablas, citas y
     referencias”](https://github.com/biogeografia-202302/practicas/blob/main/practica-02.md).
+    Considera usar una plantilla de estilos, para lo cual, te dejo estas
+    recomendaciones también:
 
     - Si usas Microsoft Word o LibreOffice Writer, puedes buscar
       plantillas de artículos (puedes usar las de algunas editoriales) o
@@ -68,11 +114,14 @@ Si vas a usar la plantilla facilitada por mí, te doy algunos consejos:
 
 - Investiga sobre qué es una plantilla. Básicamente, es un archivo en el
   que te puedes basar para crear otros.
+
 - Al ser una plantilla, si la abres con “doble-click”, se creará un
   documento basado en ella que posteriormente deberás guardar con un
   nombre asignado por ti.
+
 - Puedes usarla en GoogleDocs y en LibreOffice Writer también, pero su
   compatibilidad máxima se consigue en Microsoft Word.
+
 - La plantilla básicamente contiene definiciones de estilos para el
   título principal, títulos de nivel 1 a 3, texto de cuerpo (estilo
   “Normal”), texto de tablas, texto de pies de figuras y tablas,
@@ -80,16 +129,19 @@ Si vas a usar la plantilla facilitada por mí, te doy algunos consejos:
   sí, las figuras “no flotantes”, que se comportan como texto, también
   tiene definición de estilos). Faltan estilos, como los de autor,
   viñetas, etc. Los puedes crear libremente.
+
 - El texto y las figuras que he colocado de ejemplo son un mero relleno.
   Verás que puse una tabla, una figura, una ecuación, algunas citas y la
   lista de referencias. Debes borrar todo el contenido de ejemplo, pues
   es irrelevante para tu manuscrito.
+
 - No es obligatorio usar esta plantilla, sólo úsala si la ves útil. Si
   ya dispones de un documento donde usas estilos apropiadamente, puedes
   seguir por esa vía. Si ya tienes un documento comenzado, y quieres
   basarte en los estilos de esta plantilla, puedes importar sus estilos
   (los de la plantilla) a tu documento (hay tutoriales sobre ello, como
   [éste](https://www.youtube.com/watch?v=YG7FhZvR2Do)).
+
 - No me canso de repetirlo: consulta al tali. Es viable por correo, sólo
   que es necesario indicar qué problema obtuviste (error, fallo de
   funcionalidad, etc.) al intentar hacer qué cosa. Por ejemplo: “*me dio
@@ -149,6 +201,16 @@ recomendaciones.
 > bibliográficas, porque se va equivocar.
 
 ## Criterios de evaluación y escala de valoración
+
+| Criterios de Evaluación                         | Nivel 1 (En Desarrollo)                                               | Nivel 2 (Aceptable)                                                                      | Nivel 3 (Bueno)                                                                | Nivel 4 (Excelente)                                                                            |
+|-------------------------------------------------|-----------------------------------------------------------------------|------------------------------------------------------------------------------------------|--------------------------------------------------------------------------------|------------------------------------------------------------------------------------------------|
+| Claridad y concisión                            | Difícil de seguir y extenso en detalles innecesarios.                 | Información presentada de manera básica con algunas imprecisiones.                       | Claro y conciso, con un nivel de detalle apropiado.                            | Excepcionalmente claro, directo y conciso, con todos los detalles relevantes bien presentados. |
+| Presentación de datos numéricos                 | Datos presentados sin orden claro o estructura.                       | Datos presentados con orden, pero con fallos menores en la estructura.                   | Datos bien organizados y estructurados con claridad.                           | Datos presentados de forma impecable, con una estructura lógica y fácil de interpretar.        |
+| Uso de tablas y figuras                         | Uso inadecuado o confuso de tablas y figuras.                         | Uso básico de tablas y figuras que apoyan el texto.                                      | Uso correcto de tablas y figuras que mejoran la comprensión de los resultados. | Uso sobresaliente de tablas y figuras integradas perfectamente para ilustrar los resultados.   |
+| Alineación con objetivos y metodología          | Desalineación evidente entre resultados, objetivos y metodología.     | Resultados generalmente alineados con objetivos y metodología con algunos errores.       | Buena alineación entre resultados, objetivos y metodología.                    | Alineación perfecta y coherente entre resultados, objetivos y metodología.                     |
+| Uso correcto del tiempo verbal                  | Uso inconsistente del tiempo verbal pasado simple.                    | Uso adecuado del tiempo verbal con errores ocasionales.                                  | Uso correcto del tiempo verbal pasado simple en la mayoría del texto.          | Uso impecable y consistente del tiempo verbal pasado simple en todo el texto.                  |
+| Independencia de la interpretación y valoración | Interpretaciones y valoraciones presentes de forma inapropiada.       | Pocas interpretaciones y valoraciones que no afectan la objetividad.                     | Mayormente libre de interpretaciones y valoraciones personales.                | Totalmente libre de interpretaciones y valoraciones, enfocado solo en los resultados.          |
+| Reproducibilidad y estilo de formato            | No sigue las prácticas de reproducibilidad ni los estilos de formato. | Sigue las prácticas de reproducibilidad y estilos de formato con errores significativos. |                                                                                |                                                                                                |
 
 **Notas**:
 
