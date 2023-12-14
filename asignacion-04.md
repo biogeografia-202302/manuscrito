@@ -72,6 +72,9 @@ resultados” en siguiente la tabla:
 |:-----------------------------|:---------------------------------------------------------------------------------------------------------------------------|
 | Adrian-Rafael-Diplan-Montas  | <https://biogeografia-202302.github.io/manuscrito/fuentes/manuscrito/informe-resultados-Adrian-Rafael-Diplan-Montas.html>  |
 | Angel-Rolando-Gomez-Gonzalez | <https://biogeografia-202302.github.io/manuscrito/fuentes/manuscrito/informe-resultados-Angel-Rolando-Gomez-Gonzalez.html> |
+| Arisleydi-Mejia-De-La-Cruz   | <https://biogeografia-202302.github.io/manuscrito/fuentes/manuscrito/informe-resultados-Arisleydi-Mejia-De-La-Cruz.html>   |
+| Bryan-Josue-Funez-Ramos      | <https://biogeografia-202302.github.io/manuscrito/fuentes/manuscrito/informe-resultados-Bryan-Josue-Funez-Ramos.html>      |
+| Claribel-Reyes-Ramirez       | <https://biogeografia-202302.github.io/manuscrito/fuentes/manuscrito/informe-resultados-Claribel-Reyes-Ramirez.html>       |
 | Manuel-Enrique-Urena-Reyes   | <https://biogeografia-202302.github.io/manuscrito/fuentes/manuscrito/informe-resultados-Manuel-Enrique-Urena-Reyes.html>   |
 | Ramona-Geraldo-Munoz         | <https://biogeografia-202302.github.io/manuscrito/fuentes/manuscrito/informe-resultados-Ramona-Geraldo-Munoz.html>         |
 | Yenny-Mabel-Santana          | <https://biogeografia-202302.github.io/manuscrito/fuentes/manuscrito/informe-resultados-Yenny-Mabel-Santana.html>          |

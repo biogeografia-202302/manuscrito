@@ -19,7 +19,8 @@ editor_options:
   chunk_output_type: console
 bibliography: references.bib
 params:
-  estudiante:
+  estudiante: Claribel-Reyes-Ramirez
+  # estudiante: Arisleydi-Mejia-De-La-Cruz
   # estudiante: "Ramona-Geraldo-Munoz"
   # estudiante: "Angel-Rolando-Gomez-Gonzalez"
   # estudiante: "Manuel-Enrique-Urena-Reyes"
@@ -177,27 +178,37 @@ mis_forms_id <- odk_id_form_usuario %>%
 **Nota: sólo figuran los puntos con coordenadas. El total de formularios podría ser mayor al número de puntos mostrado en el mapa. Para un mapa comprensivo, ver más adelante el mapa bajo el texto "Mapa de hexágonos visitados".**
 
 ```{r}
-mis_forms_campo_sf <- mis_forms_campo %>%
+tryCatch(
+  expr = mis_forms_campo_sf <- mis_forms_campo %>%
   filter(!is.na(Latitude) | !is.na(Longitude)) %>% 
-  st_as_sf(coords = c('Longitude', 'Latitude'))
-leaflet(mis_forms_campo_sf) %>%
-  addCircleMarkers(
-    radius = 8, popup = ~ paste0(hexagono), stroke = T,
-    weight = 1, fillColor = 'white', color = 'black', fillOpacity = 1,
-    label = ~ hexagono,
-    labelOptions = labelOptions(
-      noHide = TRUE, direction = 'auto', offset = c(10, 0), textOnly = T,
-      style = list('color' = 'black', 'font-weight' = 'bold',
-                   'font-size' = '14px'))) %>%
-  addTiles(group = 'OSM') %>%
-  addProviderTiles("Esri.NatGeoWorldMap", group="ESRI Mapa") %>%
-  addProviderTiles("Esri.WorldImagery", group="ESRI Imagen") %>%
-  addProviderTiles("CartoDB.Positron", group= "CartoDB") %>%
-  addLayersControl(
-    baseGroups = c("CartoDB", "ESRI Imagen", "OSM", "ESRI Mapa"),
-    position = 'bottomright',
-    options = layersControlOptions(collapsed = FALSE)) %>% 
-  addFullscreenControl()
+  st_as_sf(coords = c('Longitude', 'Latitude')),
+  error = function(e) message('Se produjeron uno o varios errores al generar el objeto espacial. Esto suele deberse a que a alguno o a todos los puntos de campo les faltaron coordenadas. Es probable que el mapa no se genere o que le falten puntos.'),
+  warning = function(warn) {
+  message('Se produjeron una o varias advertencias al generar el objeto espacial. Esto suele deberse a que a alguno o a todos los puntos de campo les faltaron coordenadas. Es probable que el mapa no se genere o que le falten puntos.', appendLF = TRUE)  
+})
+tryCatch(
+  expr = leaflet(mis_forms_campo_sf) %>%
+    addCircleMarkers(
+      radius = 8, popup = ~ paste0(hexagono), stroke = T,
+      weight = 1, fillColor = 'white', color = 'black', fillOpacity = 1,
+      label = ~ hexagono,
+      labelOptions = labelOptions(
+        noHide = TRUE, direction = 'auto', offset = c(10, 0), textOnly = T,
+        style = list('color' = 'black', 'font-weight' = 'bold',
+                     'font-size' = '14px'))) %>%
+    addTiles(group = 'OSM') %>%
+    addProviderTiles("Esri.NatGeoWorldMap", group="ESRI Mapa") %>%
+    addProviderTiles("Esri.WorldImagery", group="ESRI Imagen") %>%
+    addProviderTiles("CartoDB.Positron", group= "CartoDB") %>%
+    addLayersControl(
+      baseGroups = c("CartoDB", "ESRI Imagen", "OSM", "ESRI Mapa"),
+      position = 'bottomright',
+      options = layersControlOptions(collapsed = FALSE)) %>% 
+    addFullscreenControl(),
+  error = function(e) message('Se produjeron uno o varios errores al generar el mapa. Esto suele deberse a que a alguno o a todos los puntos de campo les faltaron coordenadas. Es probable que el mapa no se haya generado o que le falten puntos.'),
+  warning = function(warn) {
+  message('Se produjeron una o varias advertencias al generar el mapa. Esto suele deberse a que a alguno o a todos los puntos de campo les faltaron coordenadas. Es probable que el mapa no se haya generado o que le falten puntos.', appendLF = TRUE)  
+})
 ```
 
 ## Fotos
@@ -239,6 +250,7 @@ mc <- mis_forms_id %>%
   filter(! especie %in% c('reina(s)', 'Otra')) %>%
   mutate(presencia = 1) %>% 
   arrange(especie) %>% 
+  distinct() %>% 
   pivot_wider(names_from = especie, values_from = presencia, values_fill = 0) %>% 
   arrange(hexagono)
 write.csv(mc,
