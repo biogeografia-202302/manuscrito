@@ -19,7 +19,9 @@ editor_options:
   chunk_output_type: console
 bibliography: references.bib
 params:
-  estudiante: Claribel-Reyes-Ramirez
+  estudiante: 
+  # estudiante: Saderis-Carmona-Marte
+  # estudiante: Claribel-Reyes-Ramirez
   # estudiante: Arisleydi-Mejia-De-La-Cruz
   # estudiante: "Ramona-Geraldo-Munoz"
   # estudiante: "Angel-Rolando-Gomez-Gonzalez"
